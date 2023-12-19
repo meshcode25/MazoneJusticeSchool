@@ -1,0 +1,995 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+    margin:0;
+}
+ 
+nav{
+   height:65px;
+   line-height:65px;
+    width:100%;
+    z-index:1000;
+    position: fixed;    
+}
+nav a{
+    text-decoration: none;
+    color:#fff;
+}
+.headercontainer{
+    width:80%;
+    /*max-width: 1250px;*/
+    background: #242526;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    position:relative;
+    padding:0 30px;
+}
+.containerlinks{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.searchcontainer{
+   /* color:#fff;*/
+   color:purple;
+}
+.logo{
+    font-size:27px;
+    font-weight: 1200;
+}
+.phonenumber {
+    font-size:20px;
+    font-weight:900;
+    color:yellow;
+}
+.headercontainer .nav-links li{
+list-style: none;
+}
+.nav-links li a{
+font-size:18px;
+border-radius:5px;
+padding:7px 15px;
+transition:all 0.5s ease;
+font-weight: 500;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+}
+.headercontainer .nav-links li a:hover{
+    background-color: purple;
+    color:#fff;
+/*    store this backgound color here:#3a3b3c;*/
+}
+.about-drop{
+    margin-left:0;
+    width:300px;
+    top:65px;
+    background:#242627;
+    position:absolute;
+    opacity:0;
+    visibility: hidden;
+    height: 60;
+    border-radius:5px;
+    transition:all 0.5s ease;
+    line-height: 30px;
+}
+.about-drop li a{
+    font-size:15px;
+    display: block;
+    width:100%;
+}
+.headercontainer li:hover .about-drop{
+    opacity:1;
+    top:82px;
+    visibility: visible;
+}
+.megabox{
+    
+    width:100%;
+}
+.column h6{
+    font-size:20px;
+    padding-left: 24px;
+    color:#fff;
+    font-weight:500;
+
+}
+.dropdown-divider{
+    background-color:#3a3b3c;
+    height:2px;
+}
+.column li a{
+    font-size:15px;
+    display:block;
+    font-weight:400;
+    margin:0;
+    padding:6px 0;
+    line-height:30px;
+}
+.droplink{
+    padding-bottom: 100px;
+}
+.servicecontent{
+    opacity: 0;
+    visibility: hidden;
+    line-height: 15px;
+    width:100%;
+    top:65px;
+    left:0;
+    background-color:#242526;
+    border-radius: 5px;
+    position:absolute;
+    transition:all 0.3s ease;
+}
+
+
+.row{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    
+}
+.column{
+    width:25%;
+    line-height: 30px;
+}
+.headercontainer li:hover .servicecontent{
+    opacity: 1;
+    visibility: visible;
+    top:82px;
+    
+}
+.jumbotron{
+    padding:0 30px;
+    background-color: blu;
+    position: absolute;
+    top:81px;
+    width:100%;
+    max-height:4vh;
+    display:flex;
+    justify-content: space-between;
+}
+.hookcontainer{
+padding:30px 0 0 30px;
+width:40%;  
+margin-left:5rem;
+}
+.headerhook{
+    font-size:45px;
+    font-weight: 500;
+}
+.parahook1{
+    font-size:20px;
+    font-weight: 200px;
+}
+
+.buttonhook{
+    padding:10px;
+    border-radius:6px;
+    
+    margin-top:5px;
+    background-color: green;
+    color:#fff;
+}
+.hookimgcontainer{ 
+    border: 2px solid black;   
+}
+
+.hookimage{
+    position: center;
+    size: cover;
+    border-radius: 5px;
+    width:600px;
+   
+}
+.reviewcontainer{
+    position: absolute;
+    top:450px;
+    width:100%;
+    background-color: blue;
+    font-size:25px;
+}
+.review{ 
+    justify-content: space-between;
+    display:flex;
+    max-width:70%;
+    margin:0 auto;
+    padding:20px 0;   
+}
+.google, .facebook, .clutch{
+    margin:0;
+    font-size:40px;
+    padding:0;
+    color:white;
+}
+.review div p{
+    padding:0;
+    margin:0;
+    color:gold;
+}
+.review div p i{
+    padding:5px;
+}
+.caseheadercontainer{
+    
+    position: absolute;
+    top:680px;
+    width:100%;
+}
+.caseheader{
+    margin:0 auto;
+    width: 90%;
+    font-size:50px;
+    text-align: center;
+}
+.casestudycontainer{
+    margin:0 auto;
+    position: absolute;
+    top:750px;
+}
+.casestudy{
+    width:95%;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.case1,.case2 {
+    width:45%;
+    border:1px solid whitesmoke;
+}
+.caseimage{
+    height:60%;
+    position:center;
+    size:cover;
+    width:100%;
+}
+
+.casepara{
+    background-color: yellowgreen;
+    padding:5px 30px 10px 30px ;
+
+    font-size:20px;
+
+}
+.growthnumbers{
+    display:flex;
+    width:80%;
+    margin:0 auto;
+    justify-content:space-between;
+
+}
+.divider{
+    background-color:whitesmoke;
+    width:0.5px;
+    height:20px;
+}
+.organic{
+    font-size:25px;
+}
+.online{
+    font-size:25px;
+}
+.organic p, .online p{
+    padding:0;
+    margin:0;
+}
+.trafficpercentage{
+    color:green;
+    font-size:35px;
+    font-weight:500;
+}
+.caseshortstory{
+    padding-top:10px;
+
+}
+.traffictype{
+    font-weight:500;
+    margin:0;
+    padding:0; 
+}
+.caselink{
+    list-style: none;
+    text-decoration:none;
+    font-size:15px;
+    font-weight:500;
+    color:green;
+}
+.testheader{
+    width:100%;
+    position: absolute;
+    top:1700px;
+    text-align:center;
+}
+.testimonialscontainer{
+position: absolute;
+top:1800px;
+width:100%;
+
+}
+.testimonials{
+    display:flex;
+    justify-content:space-between;
+    width: 80%;
+    margin:0 auto;
+}
+.test1, .test2, .test3{
+    width:30%;
+}
+.testimagediv1{
+    width:200px;
+    height:200px;
+    background: url("Images/img9.jpg") no-repeat center/cover;
+    border-radius:100%;
+}
+.testname{
+    padding-top:20px;
+    margin-left:20px; 
+    font-weight:700;
+}
+.testimagediv2{
+    width:150px;
+    height:150px;
+    background: url("Images/img10.jpg") no-repeat center/cover;
+    border-radius:100%;
+}
+.testimagediv3{
+    width:100px;
+    height:100px;
+    background: url("Images/img4.jpg") no-repeat center/cover;
+    border-radius:100%;
+}
+.testhighlight{
+    padding: 3px;
+    margin-bottom:-3px;
+    font-weight: 900;
+    background-color:gold;
+}
+.testimony{
+    padding-top:10px;
+    font-size:17px;
+}
+.chooseheader{
+    position: absolute;
+    top:2400px;
+    width:100%;
+    text-align:center;
+   
+}
+.chooseuscontainer{
+    position:absolute;
+    top:2470px;
+    width:100%;
+}
+.chooseus{
+    width:80%;
+    margin:0 auto; 
+}
+.chooseimage{
+    background: url("Images/img5.jpg") no-repeat center/cover;
+    height:230px;
+    text-align:center;
+}
+.chooseus2{
+    display: flex;
+    justify-content:space-between;
+}
+.chooseus2 div{
+    width:48%;
+
+}
+.chooselogic{
+    display:flex;
+    margin-top:30px;
+    justify-content: space-between;
+}
+.logic1, .logic2, .logic3, .logic4{
+    width:23%;
+}
+.awardsheader{
+    position:absolute;
+    top:3300px;
+    text-align:center;
+    width:100%;
+}
+.awardscontainer{
+    position:absolute;
+    top:3400px;
+    text-align:center;
+    width:100%;
+}
+.awards{
+    background:url("Images/logos/clutch.jpg") no-repeat center/cover;
+    height:200px;
+}
+.blogscontainer{
+    position: absolute;
+    top:3700px;
+    width:100%;
+    padding:20px 20px;
+    background-color:whitesmoke;
+}
+
+.blogsheader{
+    width:100%;
+    text-align:center;
+}
+.blogs{
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+    margin:0 auto;
+}
+.blog{
+    padding:10px;
+    background-color:white;
+    width:30%;
+    height:250px;
+}
+.blogheader{
+    color:green;
+    
+}
+.servicesheader{
+    position:absolute;
+    top:4150px;
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+}
+.servicescontainer{
+    width:100%;
+    position:absolute;
+    top:4220px;
+
+}
+.services{
+    margin:0 auto;
+    display: flex;
+    width:90%;
+    flex-wrap: wrap;
+}
+.service{
+    width: 30%;
+    height:280px;
+    border: 1px solid green;
+    border-radius:5px;
+    transition: all 0.5s ease;
+    padding:5px 10px;
+    
+
+}
+.service h1{
+    font-size:20px;
+    text-transform: uppercase;
+    font-weight:600;
+
+}
+.service p a{
+    display:block;
+    text-decoration:none;
+    color:green;
+    font-size:16px;
+    font-weight: 600;
+    text-transform:capitalize;
+}
+.service:hover  {
+    padding-left:10px;
+    background:lightgrey;   
+}
+.quotecontainer{
+    background: url("Images/img6.jpg") no-repeat center/cover;
+    width:100%;
+    position: absolute;
+    top:5060px;
+    background-color: black;
+    opacity:1.5;
+    color:white;
+    height:350px;
+}
+.quotecontainer h1{
+    color:white;
+    padding-bottom:30px;
+    text-align: center;
+    margin:0.5rem auto 0 auto;
+}
+.quote{
+    
+    padding:30px;
+    width:95%;
+    background:purple;
+    text-align:center;
+    margin:1rem auto;;
+}
+.quotemail{
+    width:40%;
+    padding:7px 10px;
+    border-radius:5px;
+    outline:none;
+    margin:5px 5px;
+    border:none;
+}
+.mailbtn{
+    margin-left:-9px;
+    outline:none;
+   background-color:green;
+   color:white;
+   padding:7px;
+    border-radius:7px;
+    border:none;
+    text-transform: capitalize;
+}
+.leadbar{
+    padding:1rem;
+}
+.buttons{
+    width:100%;
+}
+.contactus{
+    text-align:left;
+    background-color:orangered;
+    outline:none;
+    border:none;
+    width:15%;
+    border-radius:5px;
+    color:white;
+    margin-left:-100px;
+    padding:5px 10px;
+    margin-top:10px;
+    margin-right:30px;
+    font-size:20px;
+}
+.quoteus{
+    text-align:left;
+    outline:none;
+    border:none;
+    width:17%;
+    font-size:20px;
+    border-radius:5px;
+    padding:5px 10px;
+    background-color:blue;
+    margin-top:10px;
+    color:white;
+}
+footer{
+    background-color: black;
+    width:100%;
+    position:absolute;
+    top:5410px;
+    color:white;
+}
+.footercontainer{
+    padding: 20px 20px;
+    justify-content:space-between;
+    display:flex;
+    width:80%;
+}
+.footercontainer div ul{
+    list-style: none;
+}
+.footercontainer div ul li a{
+    
+    color:white;
+
+}
+.final{
+    padding-bottom:20px;
+    display:flex;
+    justify-content:space-between;
+    width:50%;
+    margin:0 50px 20px 200px;;
+}
+.copywrite{
+    color:blue;
+}
+.privacy{
+    color:blue;
+}
+
+@media only screen and (max-width:480px){    
+    nav{
+        width:100%;
+        overflow-x: hidden;
+         z-index:3;
+         background-color: yellow;
+         margin:0;
+      
+     }
+  
+     .headercontainer{
+        height: 70px;
+        width:100%;
+        position:sticky;
+        background: #242526;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+ 
+         
+         /*padding:0 30px;*/
+         
+     }
+ 
+     .nav-links{
+     display:none;
+     opacity:0;
+     visibility:hidden;
+         
+     }
+ 
+     .containerlinks{
+         display:flex;
+         width:30%;
+         align-items:center;
+         justify-content: space-between;
+ 
+         
+     
+     }
+     .searchcontainer{
+     
+     }
+     .phonenumber{
+        color:yellow;
+ 
+     }
+     .hamburgermenucontainer{
+        padding-top:1rem;
+     }
+   
+     .phonenum{
+         display:none;
+     }
+     /*JUmbot tron Hook */
+     .jumbotron{
+         padding:0 30px;
+         background-color: blu;
+         /* position: absolute;
+         top:81px; */
+         margin:0;
+         width:100%;
+         display:block;
+         
+     }
+     .hookcontainer{
+     padding:30px 0 0 30px;
+     width:100%;  
+     margin:0;
+     }
+     .headerhook{
+         font-size:45px;
+         font-weight: 500;
+     }
+     .parahook1{
+         font-size:20px;
+         font-weight: 200px;
+     }
+     
+     .buttonhook{
+         padding:10px;
+         border-radius:6px;
+         
+         margin-top:5px;
+         background-color: green;
+         color:#fff;
+     }
+     .hookimgcontainer{ 
+         border: 2px solid black; 
+         margin:0;  
+     }
+     
+     .hookimage{
+         position: center;
+         size: cover;
+         border-radius: 5px;
+         width:50%;
+         margin:0;
+        
+     }
+     .reviewcontainer{ 
+        background-color: blue;
+        font-size:25px;
+    }
+    .review{ 
+        display: block;
+        margin:0 auto;
+        padding:20px 0;   
+    }
+    .google, .facebook, .clutch{
+        margin:0;
+        font-size:40px;
+        padding:0;
+        color:white;
+    }
+    .review div p{
+        padding:0;
+        margin:0;
+        color:gold;
+    }
+    .review div p i{
+        padding:5px;
+    }
+
+
+
+
+    .caseheadercontainer{
+        position:static;
+    }
+    .casestudycontainer{
+        position:static;
+     
+    }
+    .casestudy{
+        display: block;
+    }
+    .testheader{
+
+    }
+    .testimonialscontainer{
+        position:static;
+    }
+    .testimonials{
+        display:block;
+    }
+ 
+    .chooseheader{
+    
+    }
+    /*
+    chooseuscontainer
+    "awardsheader
+    "awardscontainer
+    blogscontainer" */
+    .blogs{
+        display:block;
+    }
+    .servicesheader{
+
+    }
+    
+    .servicescontainer{
+        display:block;
+    }
+    .services{
+        display:block;
+    }
+    .service{
+        display:block;
+        width:100%;
+        
+    }
+    .service h1{
+        font-size:larger;
+    }
+    .quotecontainer{
+
+    }
+    .footercontainer{
+        display:block;
+    }
+    .final{
+        margin:0;
+        display:block;
+    }
+ }
+@media only screen and (min-width:481px) and (max-width:768px){    
+   body{
+    overflow-x: hidden;
+    margin:0;
+    padding:0;
+    background-color: blue;
+
+   }
+
+   nav{
+      
+        z-index:1000;
+        background-color: yellow;
+        
+    }
+ 
+    .headercontainer{
+        margin:0;
+        background: #242526;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+
+        
+        /*padding:0 30px;*/
+        
+    }
+
+    .nav-links{
+    display:none;
+    opacity:0;
+    visibility:hidden;
+        
+    }
+
+    .containerlinks{
+        display:flex;
+        width:80%;
+        align-items:center;
+        justify-content: space-between;
+
+        
+    
+    }
+    .searchcontainer{
+    
+    }
+    .phonenumber{
+     display:none;
+
+    }
+    .hamburgermenucontainer{
+       padding-top:1rem;
+    }
+    .phonesize{
+        color:purple;
+    }
+    .phonenum{
+        display:none;
+    }
+    /*JUmbot tron Hook */
+    .jumbotron{
+        padding:0 30px;
+        background-color: blu;
+        position: absolute;
+        top:81px;
+        width:100%;
+        max-height:6vh;
+        display:block;
+        
+    }
+    .hookcontainer{
+    padding:30px 0 0 30px;
+    width:100%;  
+    
+    margin:0;
+    }
+    .headerhook{
+        font-size:45px;
+        font-weight: 500;
+    }
+    .parahook1{
+        font-size:20px;
+        font-weight: 200px;
+    }
+    
+    .buttonhook{
+        padding:10px;
+        border-radius:6px;
+        
+        margin-top:5px;
+        background-color: green;
+        color:#fff;
+    }
+    .hookimgcontainer{ 
+        border: 2px solid black;   
+        margin:0;
+    }
+    
+    .hookimage{
+        position: center;
+        size: cover;
+        border-radius: 5px;
+        width:60%;
+       
+    }
+}
+
+
+@media only screen and (max-width:992px) and (min-width:768px){    
+    nav{
+       height:65px;
+       line-height:65px;
+        z-index:1000;
+        width:100%;    
+    }
+ 
+    .headercontainer{
+        width:100%;
+        max-width: 992px;
+        background: #242526;
+        margin:0 auto;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+
+        
+        /*padding:0 30px;*/
+        
+    }
+
+    .nav-links{
+        display:none;
+        visibility:hidden;
+        opacity: 0;
+
+    }
+
+    .containerlinks{
+        width:30%;
+        align-items:center;
+        justify-content: space-between;
+
+        
+    
+    }
+    .searchcontainer{
+    
+    }
+    phonenumber{
+
+    }
+    .hamburgermenucontainer{
+       padding-top:1rem;
+    }
+    .phonesize{
+        color:purple;
+    }
+}
+
+
+
+@media only screen and (max-width:1200px) and (min-width:992px){    
+    nav{
+       height:65px;
+       line-height:65px;
+        z-index:1000;
+        width:100%;    
+    }
+ 
+    .headercontainer{
+        width:90%;
+        background: #242526;
+        margin:0 auto;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+
+        
+        /*padding:0 30px;*/
+        
+    }
+
+    .nav-links{
+     
+
+    }
+
+    .containerlinks{
+      
+
+        
+    
+    }
+    .searchcontainer{
+    
+    }
+    .phonenumber{
+
+    }
+    .hamburgermenucontainer{
+       display:none;
+       visibility:hidden;
+       opacity: 0;
+    }
+ 
+}
+
+@media only screen and (min-width:1200px){
+
+    .hamburgermenucontainer{
+        display:none;
+        visibility:hidden;
+        opacity: 0;
+     }
+}
