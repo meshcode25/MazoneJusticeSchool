@@ -658,11 +658,12 @@ footer{
          top:81px; */
          margin:0;
          width:100%;
-         display:block;
+         display:static;
          
      }
      .hookcontainer{
      padding:30px 0 0 30px;
+     display:block;
      width:100%;  
      margin:0;
      }
@@ -686,6 +687,8 @@ footer{
      .hookimgcontainer{ 
          border: 2px solid black; 
          margin:0;  
+         display:block;
+
      }
      
      .hookimage{
@@ -698,6 +701,7 @@ footer{
      }
      .reviewcontainer{ 
         background-color: blue;
+        display:static;
         font-size:25px;
     }
     .review{ 
