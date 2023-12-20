@@ -41,10 +41,14 @@ nav a{
     font-size:27px;
     font-weight: 1200;
 }
+.logoimg{
+    width:5rem;
+    height: 5rem;
+}
 .phonenumber {
     font-size:20px;
     font-weight:900;
-    color:yellow;
+    color:green;
 }
 .headercontainer .nav-links li{
 list-style: none;
@@ -145,7 +149,6 @@ font-weight: 500;
     
 }
 .jumbotron{
-    padding:0 30px;
     background-color: blu;
     position: absolute;
     top:81px;
@@ -189,10 +192,11 @@ margin-left:5rem;
 }
 .reviewcontainer{
     position: absolute;
-    top:450px;
+    top:500px;
     width:100%;
     background-color: blue;
     font-size:25px;
+    
 }
 .review{ 
     justify-content: space-between;
@@ -223,8 +227,8 @@ margin-left:5rem;
 }
 .caseheader{
     margin:0 auto;
-    width: 90%;
-    font-size:50px;
+    width: 95%;
+    font-size:40px;
     text-align: center;
 }
 .casestudycontainer{
@@ -233,17 +237,17 @@ margin-left:5rem;
     top:750px;
 }
 .casestudy{
-    width:95%;
+    width:90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin:0 auto;
 }
 .case1,.case2 {
-    width:45%;
+    width:30%;
     border:1px solid whitesmoke;
 }
 .caseimage{
-    height:60%;
+    height:40%;
     position:center;
     size:cover;
     width:100%;
@@ -258,7 +262,7 @@ margin-left:5rem;
 }
 .growthnumbers{
     display:flex;
-    width:80%;
+    width:100%;
     margin:0 auto;
     justify-content:space-between;
 
@@ -280,7 +284,7 @@ margin-left:5rem;
 }
 .trafficpercentage{
     color:green;
-    font-size:35px;
+    font-size:25px;
     font-weight:500;
 }
 .caseshortstory{
@@ -323,7 +327,7 @@ width:100%;
 .testimagediv1{
     width:200px;
     height:200px;
-    background: url("Images/img9.jpg") no-repeat center/cover;
+    background: url("Images/parent1.jpg") no-repeat center/cover;
     border-radius:100%;
 }
 .testname{
@@ -334,13 +338,13 @@ width:100%;
 .testimagediv2{
     width:150px;
     height:150px;
-    background: url("Images/img10.jpg") no-repeat center/cover;
+    background: url("Images/parent2.jpg") no-repeat center/cover;
     border-radius:100%;
 }
 .testimagediv3{
     width:100px;
     height:100px;
-    background: url("Images/img4.jpg") no-repeat center/cover;
+    background: url("Images/mazoneimg1.png") no-repeat center/cover;
     border-radius:100%;
 }
 .testhighlight{
@@ -370,7 +374,7 @@ width:100%;
     margin:0 auto; 
 }
 .chooseimage{
-    background: url("Images/img5.jpg") no-repeat center/cover;
+    background: url("Images/mazoneimg3.png") no-repeat center/cover;
     height:230px;
     text-align:center;
 }
@@ -403,7 +407,7 @@ width:100%;
     width:100%;
 }
 .awards{
-    background:url("Images/logos/clutch.jpg") no-repeat center/cover;
+    background:url("Images/logos/mazonelogo2.png") no-repeat center/cover;
     height:200px;
 }
 .blogscontainer{
