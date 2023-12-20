@@ -734,10 +734,15 @@ footer{
     .casestudycontainer{
         position:static;
         display:block;
+        width:100%;
      
     }
     .casestudy{
         display: block;
+        width:100%;
+    }
+    .case1, .case2{
+        width:100%;
     }
     .testheader{
 
