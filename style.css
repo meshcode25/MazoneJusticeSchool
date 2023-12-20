@@ -701,7 +701,8 @@ footer{
      }
      .reviewcontainer{ 
         background-color: blue;
-        display:static;
+        display:absolute;
+        top:2000px;
         font-size:25px;
     }
     .review{ 
