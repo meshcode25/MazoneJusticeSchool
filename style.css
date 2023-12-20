@@ -729,9 +729,11 @@ footer{
 
     .caseheadercontainer{
         position:static;
+        display:block;
     }
     .casestudycontainer{
         position:static;
+        display:block;
      
     }
     .casestudy{
