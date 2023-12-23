@@ -670,8 +670,7 @@ footer{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        padding:10px 0;
-        opacity: 0.5;
+        opacity: 1.5;
 
     }
      .hookimgcontainer{ 
@@ -681,7 +680,7 @@ footer{
         display:block;
         height:auto;
         border: 2px solid black; 
-        margin:5px;  
+      
     }
      .headerhook{
          font-size:42px;
