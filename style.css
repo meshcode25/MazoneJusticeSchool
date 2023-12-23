@@ -663,12 +663,12 @@ footer{
         width:100%;  
         margin:0;
         height: 200px;
-        background: url("./Images/mazoneimg9.jpg") no-repeat center center cover;
+        /*        background: url("./Images/mazoneimg9.jpg") no-repeat center center cover;*/
         
 
     }
      .hookimgcontainer{ 
-        display:none;
+        width:100%;
         position:static;
         width:100%;
         display:block;
