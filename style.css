@@ -847,7 +847,9 @@ footer{
         font-size:larger;
     }
     .quotecontainer{
-
+        position:static;
+        display:block;
+        height:auto;
     }
     footer{
         height:auto;
