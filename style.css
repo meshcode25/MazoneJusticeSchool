@@ -783,16 +783,25 @@ footer{
     .chooseus{
 
     }
+
     .chooseus2{
     display: block;
     height:auto;
-}
+    }
+
     .chooseus2 div{
     display:block;
     width:80%;
     margin:0 auto;
-
-}
+    }
+    .chooselogic{
+        display:block;
+        width:100%;
+        margin-top:30px;
+    }
+    .logic1, .logic2, .logic3, .logic4{
+        width:90%;
+    }
     .awardsheader{
         position:static;
         height:auto;
