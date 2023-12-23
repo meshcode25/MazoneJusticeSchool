@@ -704,6 +704,7 @@ footer{
      }
      .reviewcontainer{ 
         background-color: blue;
+        diplay:none;
         height:auto;
         font-size:25px;
     }
