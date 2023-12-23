@@ -748,9 +748,10 @@ footer{
         width:100%;
         text-align: center;
         margin:0 auto;
+        display: block;
     }
     .testimonials{
-        display:inline;
+        display:block;
         width:100%;
     }
     .test1, .test2, .test3{
