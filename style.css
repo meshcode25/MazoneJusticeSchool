@@ -702,7 +702,6 @@ footer{
      }
      .reviewcontainer{ 
         background-color: blue;
-        
         font-size:25px;
     }
     .review{ 
@@ -729,12 +728,10 @@ footer{
 
 
     .caseheadercontainer{
-        position:static;
-        display:block;
+        
     }
     .casestudycontainer{
-        position:static;
-        display:block;
+   
         width:100%;
      
     }
