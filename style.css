@@ -700,9 +700,9 @@ footer{
         
      }
      .reviewcontainer{ 
-         position:static;
-         display:block;
-        background-color:white;
+        position:static;
+        display:block;
+        background-color:blue;
         height:auto;
         font-size:25px;
     }
@@ -735,7 +735,7 @@ footer{
     
     }
     .caseheader{
-        font-size:large;
+        
     }
     .casestudycontainer{
         position:static;
