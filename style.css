@@ -878,8 +878,11 @@ footer{
     .quotemail{
         width:100%;
     }
+    .buttons{
+        display: inline-block;
+    }
     .contactus, .quoteus{
-        display:block;
+        display:inline-block;
     }
     footer{
         height:auto;
