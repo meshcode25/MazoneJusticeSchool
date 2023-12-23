@@ -801,6 +801,7 @@ footer{
     }
     .logic1, .logic2, .logic3, .logic4{
         width:90%;
+        display:block;
     }
     .awardsheader{
         position:static;
