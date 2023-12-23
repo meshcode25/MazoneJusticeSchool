@@ -675,6 +675,7 @@ footer{
         width:100%;  
         margin:0;
         background-image: url("./Images/mazoneimg4.jpg");
+        background-color:wheat;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -695,8 +696,8 @@ footer{
          height:auto;
          color:white;
          font-weight: 500;
-         background-image: linear-gradient(to bottom right,black, violet);
-         opacity:0.5;
+         background-image: linear-gradient(to bottom right,black, red);
+         opacity:0.75;
     
      }
      .parahook1{
