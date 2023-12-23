@@ -693,10 +693,10 @@ footer{
      .headerhook{
          font-size:42px;
          height:auto;
-         color:blue;
+         color:white;
          font-weight: 500;
-         
-         background-color: black;
+         background-image: linear-gradient(to bottom right,black, violet);
+    
      }
      .parahook1{
          font-size:20px;
