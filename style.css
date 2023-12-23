@@ -692,20 +692,21 @@ footer{
         
      }
      .reviewcontainer{ 
+         position:static;
+         display:block;
         background-color: blue;
-        display:block;
         height:auto;
-        position:static;
         font-size:25px;
     }
     .review{ 
         display: block;
+        position:static;
         margin:0 auto;
         padding:20px 0;   
     }
     .google, .facebook, .clutch{
         margin:0;
-        font-size:40px;
+        font-size:30px;
         padding:0;
         color:white;
     }
@@ -724,6 +725,9 @@ footer{
         display: block;
         height:auto;
     
+    }
+    .caseheader{
+        font-size: medium;
     }
     .casestudycontainer{
         position:static;
