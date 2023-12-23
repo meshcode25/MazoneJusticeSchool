@@ -606,7 +606,6 @@ footer{
      }
   
      .headercontainer{
-    
         width:100%;
         position:sticky;
         background: #242526;
@@ -663,12 +662,18 @@ footer{
          
      }
      .hookcontainer{
-     padding:30px 0 0 30px;
-     width:100%;  
-     margin:0;
+        height:auto;
+        display: block;
+        position:static;
+        padding:30px 0 0 30px;
+        width:100%;  
+        margin:0;
      }
      .headerhook{
          font-size:45px;
+         height:auto;
+         display: block;
+         position:static;
          font-weight: 500;
      }
      .parahook1{
@@ -685,6 +690,9 @@ footer{
          color:#fff;
      }
      .hookimgcontainer{ 
+        height:auto;
+        display: block;
+        position:static;
          border: 2px solid black; 
          margin:0;  
          
@@ -738,7 +746,7 @@ footer{
      
     }
     .casestudy{
-        display: inline;
+        display: block;;
         width:100%;
     }
     .case1, .case2{
@@ -765,6 +773,10 @@ footer{
     }
  
     .chooseheader{
+        height:auto;
+        display: block;
+        position:static;
+   
     
     }
     
@@ -772,7 +784,19 @@ footer{
         position:static;
         height:auto;
     }
-    
+    .chooseus{
+
+    }
+    .chooseus2{
+    display: block;
+    height:auto;
+}
+    .chooseus2 div{
+    display:block;
+    width:80%;
+    margin:0 auto;
+
+}
     .awardsheader{
         position:static;
         height:auto;
@@ -803,6 +827,10 @@ footer{
 
     .servicesheader{
 
+        height:auto;
+        display: block;
+        position:static;
+   
     }
     
     .servicescontainer{
@@ -822,8 +850,16 @@ footer{
     .quotecontainer{
 
     }
+    footer{
+        height:auto;
+        display: block;
+        position:static;
+    }
     .footercontainer{
-        display:block;
+        height:auto;
+        display: block;
+        position:static;
+   
     }
     .final{
         margin:0;
