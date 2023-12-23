@@ -703,9 +703,10 @@ footer{
      .parahook1{
          font-size:20px;
          color:white;
-         background-color:black;
+         background-image:linear-gradient(to bottom, white, black);
         
          font-weight: 200px;
+         opacity:0.8;
      }
      
      .buttonhook{
