@@ -647,10 +647,10 @@ footer{
      /*JUmbot tron Hook */
      .jumbotron{
          padding:0 30px;
+         height: auto;
          background-color: blu;
          margin:0;
          width:100%;
-         max-height:max-content;
          display:block;
          position:static;
         
