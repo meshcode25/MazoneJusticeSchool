@@ -606,6 +606,7 @@ footer{
   
      .headercontainer{
         width:100%;
+        height:auto;
         background: #242526;
         display:flex;
         align-items:center;
@@ -640,7 +641,9 @@ footer{
      .hamburgermenucontainer{
         padding-top:1rem;
      }
-   
+     .humburger{
+
+     }
      .phonenum{
          display:none;
      }
@@ -662,7 +665,7 @@ footer{
         padding:30px 0 0 10px;
         width:100%;  
         margin:0;
-        height: 200px;
+        
         /*        background: url("./Images/mazoneimg9.jpg") no-repeat center center cover;*/
         
 
