@@ -651,18 +651,19 @@ footer{
          max-height:max-content;
          margin:0;
          width:100%;
-         background: yellow url(./Images/mazoneimg9.jpg) no-repeat center cover;
         
          
      }
      .hookcontainer{
+
         position:static;
         display:block;
         height:auto;
         padding:30px 0 0 10px;
         width:100%;  
         margin:0;
-     }
+        background: yellow url("./Images/mazoneimg9.jpg") no-repeat center cover;
+    }
      .hookimgcontainer{ 
         display:none;
         position:static;
