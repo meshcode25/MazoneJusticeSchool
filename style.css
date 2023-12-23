@@ -664,6 +664,7 @@ footer{
          margin:0;
          width:100%;
         background-color:black;
+        opacity:0.5;
          
      }
      .hookcontainer{
@@ -679,7 +680,7 @@ footer{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        opacity: 1.5;
+        opacity:0.5;
 
     }
      .hookimgcontainer{ 
