@@ -746,9 +746,14 @@ footer{
     .testimonialscontainer{
         position:static;
         width:100%;
+        text-align: center;
+        margin:0 auto;
     }
     .testimonials{
         display:inline;
+        width:100%;
+    }
+    .test1, .test2, .test3{
         width:100%;
     }
  
