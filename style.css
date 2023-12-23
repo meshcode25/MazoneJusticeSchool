@@ -696,17 +696,13 @@ footer{
          height:auto;
          color:white;
          font-weight: 500;
-         background-image: linear-gradient(to bottom right,black, purple);
-         opacity:0.75;
     
      }
      .parahook1{
          font-size:20px;
          color:white;
-         background-image:linear-gradient(to bottom, purple, black);
-        
          font-weight: 200px;
-         opacity:0.8;
+         
      }
      
      .buttonhook{
