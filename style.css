@@ -705,6 +705,7 @@ footer{
         background-color:blue;
         height:auto;
         font-size:25px;
+        margin:20px 0;
     }
     .review{ 
         display: block;
@@ -737,7 +738,9 @@ footer{
     
     }
     .caseheader{
-        
+        position:static;
+        height:auto;
+        display:block;
     }
     .casestudycontainer{
         position:static;
@@ -754,6 +757,9 @@ footer{
         height:auto;
     }
     .testheader{
+        position:static;
+        display: block;
+        height:auto;
 
     }
     .testimonialscontainer{
