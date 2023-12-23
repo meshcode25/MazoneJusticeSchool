@@ -645,12 +645,16 @@ footer{
 
      .hamburgermenucontainer{
         padding-top:1rem;
+        display:none;
+        visibility: hidden;
+        opacity:0;
+
      }
      .hamburger{
     
      }
      .collapsecontainer{
-        display:none;
+        display:inline-block;
      }
      .collapse{
 
