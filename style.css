@@ -865,7 +865,21 @@ footer{
     .quotecontainer{
         position:static;
         display:block;
+        width:100%;
         height:auto;
+    }
+    .quote{
+        width:100%
+    }
+    .leadbar{
+        width:100%;
+
+    }
+    .quotemail{
+        width:90%;
+    }
+    .buttons{
+        display:block;
     }
     footer{
         height:auto;
