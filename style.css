@@ -667,7 +667,12 @@ footer{
         margin:0;
         height:4000px;
         background-image: url("./Images/mazoneimg9.jpg");
-        
+        background-color: #3a3b3c;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
 
     }
      .hookimgcontainer{ 
