@@ -725,13 +725,10 @@ footer{
     }
 
     .caseheadercontainer{ 
-        position:static;
-        display:block;
+        
     }
     .casestudycontainer{
-        position:static;
-        width:100%;
-        display:block;
+        
      
     }
     .casestudy{
