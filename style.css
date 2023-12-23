@@ -599,18 +599,15 @@ footer{
 @media only screen and (max-width:480px){    
     nav{
         width:100%;
-        overflow-x: hidden;
-         z-index:3;
          background-color: yellow;
          margin:0;
-         height: auto;
+         height: 72px;
       
      }
   
      .headercontainer{
         height: auto;
         width:100%;
-
         position:sticky;
         background: #242526;
         display:flex;
@@ -660,7 +657,8 @@ footer{
          top:81px; */
          margin:0;
          width:100%;
-         display: inline;
+         display: block;
+         position:static;
          
      }
      .hookcontainer{
@@ -726,11 +724,12 @@ footer{
 
     .caseheadercontainer{ 
         position:static;
+        display: block;
     
     }
     .casestudycontainer{
         position:static;
-
+        display: block;
      
     }
     .casestudy{
@@ -745,18 +744,17 @@ footer{
     }
     .testimonialscontainer{
         position:static;
-        width:100%;
+        width:95%;
         text-align: center;
 
     }
     .testimonials{
-        text-align: center;
         margin:0 auto;
         display:block;
         width:80%;
     }
     .test1, .test2, .test3{
-        width:100%;
+        width:80%;
     }
  
     .chooseheader{
