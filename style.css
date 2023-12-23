@@ -669,8 +669,9 @@ footer{
         background-color: #3a3b3c;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
-        padding:10px;
+        background-size: cover;
+        padding:10px 0;
+        opacity: 0.5;
 
     }
      .hookimgcontainer{ 
