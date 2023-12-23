@@ -879,10 +879,17 @@ footer{
         width:100%;
     }
     .buttons{
-        display: inline-block;
+        display: block;
+        width:100%;
     }
-    .contactus, .quoteus{
-        display:inline-block;
+    .contactus{
+        width:50%;
+        margin:0 auto;
+        display:block;
+    } 
+    
+    .quoteus{
+        display:block;
     }
     footer{
         height:auto;
