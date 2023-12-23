@@ -656,6 +656,7 @@ footer{
          width:100%;
          max-height:max-content;
          display:block;
+         position:static;
         
          
      }
@@ -820,8 +821,6 @@ footer{
         width:80%;
         height:250px;
     }
-
-
 
     .servicesheader{ 
         position:static;
