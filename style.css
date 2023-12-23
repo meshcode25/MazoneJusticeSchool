@@ -685,10 +685,12 @@ footer{
      .headerhook{
          font-size:42px;
          height:auto;
+         color:purple;
          font-weight: 500;
      }
      .parahook1{
          font-size:20px;
+         color:white;
          font-weight: 200px;
      }
      
