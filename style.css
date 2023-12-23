@@ -696,6 +696,7 @@ footer{
          color:white;
          font-weight: 500;
          background-image: linear-gradient(to bottom right,black, violet);
+         opacity:0.5;
     
      }
      .parahook1{
