@@ -670,7 +670,6 @@ footer{
         background-size:  cover;
         opacity:0.5;
 
-        background: url(background-photo.jpg) center center cover no-repeat fixed;
     }
      .hookimgcontainer{ 
         display:none;
