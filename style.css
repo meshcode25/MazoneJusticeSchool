@@ -656,11 +656,17 @@ footer{
          
      }
      .hookcontainer{
+        position:static;
+        display:block;
+        height:auto;
         padding:30px 0 0 30px;
         width:100%;  
         margin:0;
      }
      .hookimgcontainer{ 
+        position:static;
+        display:block;
+        height:auto;
         border: 2px solid black; 
         margin:0;  
     }
