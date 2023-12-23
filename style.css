@@ -747,12 +747,13 @@ footer{
         position:static;
         width:100%;
         text-align: center;
-        margin:0 auto;
-        display: block;
+
     }
     .testimonials{
+        text-align: center;
+        margin:0 auto;
         display:block;
-        width:100%;
+        width:80%;
     }
     .test1, .test2, .test3{
         width:100%;
