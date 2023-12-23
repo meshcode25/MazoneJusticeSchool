@@ -993,6 +993,8 @@ footer{
     }
     .hamburgermenucontainer{
        padding-top:1rem;
+       display:none;
+       
     }
 
 
@@ -1004,10 +1006,11 @@ footer{
     }
 
     .collapsecontainer{
-        display:none;
+        visibility:visible;
+        display:inline-block
      }
      .collapse{
-        
+
      }
 
     /*JUmbot tron Hook */
