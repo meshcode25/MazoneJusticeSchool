@@ -606,7 +606,7 @@ footer{
      }
   
      .headercontainer{
-        height: auto;
+    
         width:100%;
         position:sticky;
         background: #242526;
@@ -657,6 +657,7 @@ footer{
          top:81px; */
          margin:0;
          width:100%;
+         height:auto;
          display: block;
          position:static;
          
@@ -700,10 +701,11 @@ footer{
      }
      .reviewcontainer{ 
         background-color: blue;
+        height:auto;
         font-size:25px;
     }
     .review{ 
-        display: inline;
+        display: block;
         margin:0 auto;
         padding:20px 0;   
     }
@@ -724,12 +726,15 @@ footer{
 
     .caseheadercontainer{ 
         position:static;
+        height:auto;
         display: block;
+        height:auto;
     
     }
     .casestudycontainer{
         position:static;
         display: block;
+        height:auto;
      
     }
     .casestudy{
@@ -738,6 +743,7 @@ footer{
     }
     .case1, .case2{
         width:100%;
+        height:auto;
     }
     .testheader{
 
@@ -746,6 +752,7 @@ footer{
         position:static;
         width:95%;
         text-align: center;
+        height:auto;
 
     }
     .testimonials{
@@ -760,14 +767,40 @@ footer{
     .chooseheader{
     
     }
-    /*
-    chooseuscontainer
-    "awardsheader
-    "awardscontainer
-    blogscontainer" */
+    
+    .chooseuscontainer{
+        position:static;
+        height:auto;
+    }
+    
+    .awardsheader{
+        position:static;
+        height:auto;
+    }
+    .awardscontainer{
+        position:static;
+        height:auto;
+    }
+    .blogscontainer{
+        position:static;
+        height:auto;
+    }
+ 
     .blogs{
         display:block;
+        justify-content: space-between;
+        width:100%;
+        margin:0 auto;
     }
+    .blog{
+        padding:10px;
+        background-color:white;
+        width:80%;
+        height:250px;
+    }
+
+
+
     .servicesheader{
 
     }
