@@ -876,9 +876,9 @@ footer{
 
     }
     .quotemail{
-        width:90%;
+        width:100%;
     }
-    .buttons{
+    .contactus, .quoteus{
         display:block;
     }
     footer{
