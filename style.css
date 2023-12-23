@@ -598,10 +598,10 @@ footer{
 
 @media only screen and (max-width:480px){    
     nav{
+        position:sticky;
         width:100%;
          margin:0;
          height:72px;
-         position:sticky;
      }
   
      .headercontainer{
@@ -646,30 +646,28 @@ footer{
      }
      /*JUmbot tron Hook */
      .jumbotron{
-         padding:0 30px;
+         position:static;
+         display:block;
          height: auto;
-         background-color: blu;
+         padding:0 30px;
          margin:0;
          width:100%;
-         display:block;
-         position:static;
         
          
      }
      .hookcontainer{
-        height:auto;
-        display: block;
-        position:static;
         padding:30px 0 0 30px;
         width:100%;  
         margin:0;
      }
+     .hookimgcontainer{ 
+        border: 2px solid black; 
+        margin:0;  
+    }
      .headerhook{
-         font-size:45px;
+         font-size:38px;
          height:auto;
-         display: block;
-         position:static;
-         font-weight: 500;
+         font-weight: 400;
      }
      .parahook1{
          font-size:20px;
@@ -684,15 +682,6 @@ footer{
          background-color: green;
          color:#fff;
      }
-     .hookimgcontainer{ 
-        height:auto;
-        display: block;
-        position:static;
-         border: 2px solid black; 
-         margin:0;  
-         
-
-     }
      
      .hookimage{
          position: center;
@@ -704,7 +693,7 @@ footer{
      }
      .reviewcontainer{ 
         background-color: blue;
-        display: block;
+        display:block;
         height:auto;
         position:static;
         font-size:25px;
