@@ -743,9 +743,11 @@ footer{
     }
     .testimonialscontainer{
         position:static;
+        width:100%;
     }
     .testimonials{
         display:block;
+        width:100%;
     }
  
     .chooseheader{
