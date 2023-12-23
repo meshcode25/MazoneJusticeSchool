@@ -651,6 +651,7 @@ footer{
          max-height:max-content;
          margin:0;
          width:100%;
+         background: url("./Images/mazoneimg9.jpg") no-repeat center cover;
         
          
      }
@@ -663,6 +664,7 @@ footer{
         margin:0;
      }
      .hookimgcontainer{ 
+        display:none;
         position:static;
         width:100%;
         display:block;
