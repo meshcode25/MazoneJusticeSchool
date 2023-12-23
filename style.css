@@ -603,12 +603,14 @@ footer{
          z-index:3;
          background-color: yellow;
          margin:0;
+         height: auto;
       
      }
   
      .headercontainer{
-        height: 70px;
+        height: auto;
         width:100%;
+
         position:sticky;
         background: #242526;
         display:flex;
@@ -658,13 +660,11 @@ footer{
          top:81px; */
          margin:0;
          width:100%;
-         
-         display: block;
+         display: inline;
          
      }
      .hookcontainer{
      padding:30px 0 0 30px;
-     display:block;
      width:100%;  
      margin:0;
      }
@@ -688,7 +688,7 @@ footer{
      .hookimgcontainer{ 
          border: 2px solid black; 
          margin:0;  
-         display:block;
+         
 
      }
      
@@ -705,7 +705,7 @@ footer{
         font-size:25px;
     }
     .review{ 
-        display: block;
+        display: inline;
         margin:0 auto;
         padding:20px 0;   
     }
@@ -726,13 +726,15 @@ footer{
 
     .caseheadercontainer{ 
         position:static;
+    
     }
     .casestudycontainer{
         position:static;
+
      
     }
     .casestudy{
-        display: block;
+        display: inline;
         width:100%;
     }
     .case1, .case2{
@@ -746,7 +748,7 @@ footer{
         width:100%;
     }
     .testimonials{
-        display:block;
+        display:inline;
         width:100%;
     }
  
