@@ -651,7 +651,7 @@ footer{
          max-height:max-content;
          margin:0;
          width:100%;
-         background: url("./Images/mazoneimg9.jpg") no-repeat center cover;
+         background-image: url("./Images/mazoneimg9.jpg") no-repeat center cover;
         
          
      }
