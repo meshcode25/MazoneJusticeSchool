@@ -633,20 +633,29 @@ footer{
      }
      .searchcontainer{
      
-     }
-     .phonenumber{
+    }
+    .phonenumber{
         color:yellow;
- 
-     }
+        
+    }
+    
+    .phonenum{
+        display:none;
+    }
+
      .hamburgermenucontainer{
         padding-top:1rem;
      }
-     .humburger{
+     .hamburger{
+    
+     }
+     .collapsecontainer{
+        display:none;
+     }
+     .collapse{
 
      }
-     .phonenum{
-         display:none;
-     }
+ 
      /*JUmbot tron Hook */
      .jumbotron{
          position:static;
@@ -985,12 +994,22 @@ footer{
     .hamburgermenucontainer{
        padding-top:1rem;
     }
+
+
     .phonesize{
         color:purple;
     }
     .phonenum{
         display:none;
     }
+
+    .collapsecontainer{
+        display:none;
+     }
+     .collapse{
+        
+     }
+
     /*JUmbot tron Hook */
     .jumbotron{
         padding:0 30px;
