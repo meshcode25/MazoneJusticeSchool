@@ -823,16 +823,17 @@ footer{
 
 
 
-    .servicesheader{
-
-        height:auto;
-        display: block;
+    .servicesheader{ 
         position:static;
+        display:block;
+        height:auto;
    
     }
     
     .servicescontainer{
         display:block;
+        position:static;
+        height:auto;
     }
     .services{
         display:block;
