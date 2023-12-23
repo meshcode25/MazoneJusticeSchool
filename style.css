@@ -702,9 +702,7 @@ footer{
      }
      .reviewcontainer{ 
         background-color: blue;
-        position:static;
-        display:block;
-        top:6000px;
+        
         font-size:25px;
     }
     .review{ 
