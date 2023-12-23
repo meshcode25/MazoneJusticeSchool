@@ -687,10 +687,13 @@ footer{
          height:auto;
          color:purple;
          font-weight: 500;
+         opacity:0.5;
+         background-color: black;
      }
      .parahook1{
          font-size:20px;
          color:white;
+         background-color: red;
          font-weight: 200px;
      }
      
