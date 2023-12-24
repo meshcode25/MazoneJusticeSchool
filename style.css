@@ -698,14 +698,18 @@ footer{
      .headerhook{
          font-size:42px;
          height:auto;
-         color:white;
+         color:red;
          font-weight: 500;
+         background-color: black;
+         opacity:0.2;
     
      }
      .parahook1{
          font-size:20px;
          color:white;
          font-weight: 200px;
+         background-color: blue;
+         opacity:0.5;
          
      }
      
