@@ -654,6 +654,7 @@ footer{
     
      }
      .collapsecontainer{
+        color:white;
         display:block;
      }
      .collapse{
@@ -702,15 +703,15 @@ footer{
          color:red;
          font-weight: 500;
          background:rgba(3,172, 240, 0.5);
+         width:95%;
     
      }
      .parahook1{
          font-size:20px;
          color:white;
          font-weight: 200px;
-         background-color: blue;
-         opacity:0.5;
-         
+         background:rgba(3,172, 240, 0.5);
+        width:95%;
      }
      
      .buttonhook{
