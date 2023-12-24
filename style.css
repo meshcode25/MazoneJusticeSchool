@@ -656,6 +656,8 @@ footer{
      .collapsecontainer{
         color:white;
         display:block;
+        visibility: visible;
+        opacity:1;
      }
      .collapse{
 
