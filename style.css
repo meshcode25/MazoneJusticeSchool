@@ -683,7 +683,7 @@ footer{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        opacity:0.3;
+        
         
 
     }
@@ -701,8 +701,7 @@ footer{
          height:auto;
          color:red;
          font-weight: 500;
-         background-color: black;
-         opacity:0.2;
+         background:rgba(3,172, 240, 0.5);
     
      }
      .parahook1{
