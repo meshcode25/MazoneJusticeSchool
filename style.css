@@ -90,7 +90,7 @@ font-weight: 500;
 .headercontainer li:hover .about-drop{
     opacity:1;
     top:82px;
-    visibility: visible;
+    visibility:visible;
 }
 .megabox{
     
@@ -645,9 +645,11 @@ footer{
 
      .hamburgermenucontainer{
         padding-top:1rem;
-        display:none;
-        visibility: hidden;
-        opacity:0;
+        color:white;
+        display:block;
+        visibility: visible;
+        opacity:1;
+     
 
      }
      .hamburger{
@@ -655,10 +657,9 @@ footer{
      }
      .collapsecontainer{
         padding-top:1rem;
-        color:white;
-        display:block;
-        visibility: visible;
-        opacity:1;
+        display:none;
+        visibility: hidden;
+        opacity:0;
      }
      .collapse{
 

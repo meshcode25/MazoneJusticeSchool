@@ -1,12 +1,21 @@
 //toggle and untoggle service display on hover
-// var dropdownbutton= document.getElementById("dropDownButton");
 
-// var dropdowncontent=document.getElementById("dropDownContent");
+var showmenu= document.getElementById("showmenu");
 
-// dropdownbutton.addEventListener("mouseover", ()=>{
-//     dropdowncontent.style.display="none";
-//     dropdowncontent.style.animatae="all 2s ease";
-// });
-// dropdownbutton.addEventListener("mouseout", ()=>{
-//     dropdowncontent.style.display="none";
-// })
+var collapsemenu=document.getElementById("collapsemenu");
+
+showmenu.addEventListener("mouseclick", ()=>{
+    showmenu.style.display="none";
+    
+    showmenu.style.animate="all 2s ease";
+    showmenu.style.visibility="hidden"
+    showmenu.style.opacity="1"
+    
+    collapsemenu.style.display="block"
+    collapsemenu.style.visibility="visible"
+    collapsemenu.style.opacity="1"
+    
+});
+dropdownbutton.addEventListener("mouseout", ()=>{
+    dropdowncontent.style.display="none";
+})
