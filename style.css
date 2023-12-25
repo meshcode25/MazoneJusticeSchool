@@ -616,14 +616,14 @@ footer{
      }
  
      .nav-links{
+        display:none;
+        opacity:0;
+        visibility:hidden;
     /*
-    display:none;
-     opacity:0;
-     visibility:hidden;
-     */
-     display:block;
+    display:block;
      opacity:1;
      visibility: visible;    
+     */
      }
  
      .containerlinks{

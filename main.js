@@ -3,7 +3,8 @@
 var showmenu= document.getElementById("showmenu");
 
 var collapsemenu=document.getElementById("collapsemenu");
-var navlinks=document.getElementsByClassName("nav-links");
+var navlinks=document.getElementById("nav-links");
+
 
 showmenu.addEventListener("click", ()=>{
     showmenu.style.display="none";
