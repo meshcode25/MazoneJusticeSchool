@@ -704,7 +704,7 @@ footer{
      .headerhook{
          font-size:42px;
          height:auto;
-         color:red;
+         color:black;
          font-weight: 500;
          background:rgba(3,172, 240, 0.5);
          width:95%;
@@ -712,7 +712,7 @@ footer{
      }
      .parahook1{
          font-size:20px;
-         color:black;
+         color:white;
          font-weight: 200px;
          background:rgba(3,172, 240, 0.2);
         width:95%;
