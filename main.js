@@ -3,6 +3,7 @@
 var showmenu= document.getElementById("showmenu");
 
 var collapsemenu=document.getElementById("collapsemenu");
+var navlinks=document.getElementsByClassName("nav-links");
 
 showmenu.addEventListener("click", ()=>{
     showmenu.style.display="none";
@@ -14,6 +15,10 @@ showmenu.addEventListener("click", ()=>{
     collapsemenu.style.display="block"
     collapsemenu.style.visibility="visible"
     collapsemenu.style.opacity="1"
+
+    navlinks.style.display="block"
+    navlinks.style.visibility="visible"
+    navlinks.style.opacity="1"
     
 });
 collapsemenu.addEventListener("click", ()=>{
