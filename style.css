@@ -696,6 +696,10 @@ footer{
         */
         transition:all 0.3s ease;
     }
+    .column{
+        display:block;
+        width:100%;
+    }
     .headercontainer li:active .servicecontent{
         opacity: 1;
         visibility: visible;
