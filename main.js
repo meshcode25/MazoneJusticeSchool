@@ -4,7 +4,7 @@ var showmenu= document.getElementById("showmenu");
 
 var collapsemenu=document.getElementById("collapsemenu");
 
-showmenu.addEventListener("mouseclick", ()=>{
+showmenu.addEventListener("click", ()=>{
     showmenu.style.display="none";
     
     showmenu.style.animate="all 2s ease";
