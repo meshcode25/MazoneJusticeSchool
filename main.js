@@ -17,10 +17,10 @@ showmenu.addEventListener("click", ()=>{
     collapsemenu.style.visibility="visible"
     collapsemenu.style.opacity="1"
 
-    navlinks.style.display="block"
-    navlinks.style.visibility="visible"
-    navlinks.style.opacity="1"
-    
+
+    navlinks.setAttribute(
+        "style","position:absolute; top:81px; display:block; opacity:1; visibility:visible;"
+    )
 });
 collapsemenu.addEventListener("click", ()=>{
     collapsemenu.style.display="none";
@@ -32,4 +32,7 @@ collapsemenu.addEventListener("click", ()=>{
     showmenu.style.display="block"
     showmenu.style.visibility="visible"
     showmenu.style.opacity="1"
+
+    navlinks.removeAttribute("style");
+
 })
