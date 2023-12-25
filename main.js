@@ -16,6 +16,14 @@ showmenu.addEventListener("click", ()=>{
     collapsemenu.style.opacity="1"
     
 });
-dropdownbutton.addEventListener("mouseout", ()=>{
-    dropdowncontent.style.display="none";
+collapsemenu.addEventListener("click", ()=>{
+    collapsemenu.style.display="none";
+    
+    collapsemenu.style.animate="all 2s ease";
+    collapsemenu.style.visibility="hidden"
+    collapsemenu.style.opacity="1"
+    
+    showmenu.style.display="block"
+    showmenu.style.visibility="visible"
+    showmenu.style.opacity="1"
 })
