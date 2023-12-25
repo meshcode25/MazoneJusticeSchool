@@ -656,22 +656,52 @@ footer{
         display:block;
         visibility: visible;
         opacity:1;
+        transition: all 3s ease;
      
 
      }
      .hamburger{
     
+
      }
+     .hamburgermenucontainer a{
+        color:white;
+     }
+
      .collapsecontainer{
         padding-top:1rem;
         display:none;
         visibility: hidden;
         opacity:0;
-     }
-     .collapse{
+        transition:all 3s ease;
+    }
+    .collapse{
 
-     }
- 
+    }
+    .collapsecontainer a{
+        color:white;
+    }
+    
+    .servicecontent{
+        /*
+        opacity: 0;
+        visibility: hidden;
+        line-height: 15px;
+        width:100%;
+        top:65px;
+        left:0;
+        background-color:#242526;
+        border-radius: 5px;
+        position:absolute;
+        */
+        transition:all 0.3s ease;
+    }
+    .headercontainer li:active .servicecontent{
+        opacity: 1;
+        visibility: visible;
+        top:82px;
+        
+    }
      /*JUmbot tron Hook */
      .jumbotron{
          position:static;
@@ -721,7 +751,7 @@ footer{
          font-size:20px;
          color:whitesmoke;
          font-weight: 200px;
-         background:rgba(3,172, 240, 0.3);
+         background:rgba(232, 61, 18, 0.3);
          width:95%;
      }
      
