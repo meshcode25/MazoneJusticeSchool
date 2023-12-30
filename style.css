@@ -714,6 +714,8 @@ footer{
     transition:all 0.3s ease;
 } */
 
+
+
     .servicecontent{
         position:static;
         margin-left:0;
@@ -727,31 +729,39 @@ footer{
         transition:all 0.5s ease;
 
     }
-     .servicecontent .row .column h6 a:hover ul{
-        opacity: 1;
-        visibility: visible;
-        display:block;
-        position:static;
-        width:100%;
-    }    
 
-
-
-    
     .column{
         display:none;
         visibility: hidden;
         opacity: 0;
     }
-   
+
+    
     .column ul{
         position: static;
         display:none;
         visibility: hidden;
         opacity: 0;
     } 
-    
-    
+
+    .headercontainer .nav-links li:hover .column{
+        display:inline-block;
+        position:static;
+        width:100%;
+        margin-left:10px;
+        visibility: visible;
+        opacity:1;
+        transition:all 1s ease;
+        
+    } 
+
+    .headercontainer .nav-links li .servicedrop .servicecontent .row .column h6 a:hover ul{
+        opacity: 1;
+        visibility: visible;
+        display:block;
+        position:static;
+        width:100%;
+    }
     
     
     /* 
@@ -765,15 +775,7 @@ footer{
     
     /* .servicecontent .row .column h6 a:hover ul */
 
-    .headercontainer .nav-links li .servicedrop .servicecontent .row .column a:hover ul{
-        opacity: 1;
-        visibility: visible;
-        display:block;
-        position:static;
-        width:100%;
-    }
     
-
     .about-drop{
        display:none;
        visibility: hidden;
@@ -786,8 +788,7 @@ footer{
         width:100%;
     }
 
-    .headercontainer li:hover .about-drop{
-        
+    .headercontainer li:hover .about-drop{    
         position:static;
         margin-left:0;
         width:100%;
@@ -1278,31 +1279,40 @@ footer{
 
 
     .about-drop{
-        position:static;
-        margin-left:0;
-        width:100%;
-        background:#242627;
+        display:none;
+        visibility: hidden;
         opacity:0;
-        visibility: hidden;
-        display: block;
-        border-radius:5px;
-        transition:all 0.5s ease;
-
-    }
-
-    .about-drop li a{
-        font-size:15px;
-        display: block;
-        width:100%;
-    }
+ 
+     }
+     .about-drop li a{
+         font-size:20px;
+         display: block;
+         width:100%;
+     }
+ 
+     .headercontainer li:hover .about-drop{    
+         position:static;
+         margin-left:0;
+         width:100%;
+         background:#242627;
+         opacity:1;
+         visibility: visible;
+         display: block;
+         border-radius:5px;
+         transition:all 0.5s ease;
+         
+     }
+    
+    /*
     .deep-link{
-        /* display:none; 
+         display:none; 
         visibility: hidden;
-        opacity:0; */
-
-
-
+        opacity:0;
     }
+    
+    */
+
+
     /* .nav-links li .servicecontent .row .column ul{
         display:none;
         opacity:0;
