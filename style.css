@@ -715,7 +715,7 @@ footer{
 } */
 
     .servicecontent{
-        position:relative;
+        position:absolute;
         margin-left:0;
         width:300px;
         top:0;
@@ -742,7 +742,7 @@ footer{
     .about-drop{
         margin-left:0;
         width:300px;
-        top:75px;
+        top:85px;
         left:0;
         background:#242627;
         position:absolute;
@@ -762,7 +762,7 @@ footer{
         display:none; 
         visibility: hidden;
         opacity:0;
-        
+
 
 
     }
