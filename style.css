@@ -1236,7 +1236,7 @@ footer{
         opacity: 0;
     } 
 
-    .headercontainer .nav-links li .column .drop-down-title a:hover ul{
+     .drop-down-title a:hover ul{
         opacity: 1;
         visibility: visible;
         display:block;
