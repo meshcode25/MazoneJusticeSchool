@@ -720,6 +720,7 @@ footer{
         width:300px;
         top:0;
         left:0;
+        display:block;
         background:#242627;
         opacity:0;
         visibility: hidden;
