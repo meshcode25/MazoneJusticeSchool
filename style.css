@@ -715,11 +715,9 @@ footer{
 } */
 
     .servicecontent{
-        position:absolute;
+        position:static;
         margin-left:0;
-        width:300px;
-        top:0;
-        left:0;
+        width:100%;
         display:block;
         background:#242627;
         opacity:0;
@@ -742,6 +740,7 @@ footer{
         display:block;
         position:static;
         width:100%;
+        margin-left:10px;
         
     }
     .column ul{
