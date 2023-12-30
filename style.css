@@ -741,7 +741,8 @@ footer{
     .about-drop{
         margin-left:0;
         width:300px;
-        top:65px;
+        top:75px;
+        left:0;
         background:#242627;
         position:absolute;
         opacity:0;
@@ -757,7 +758,7 @@ footer{
         width:100%;
     }
     .deep-link{
-        display:none; 
+        /* display:none;  */
 
 
     }
