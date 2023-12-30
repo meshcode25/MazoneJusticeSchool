@@ -737,6 +737,10 @@ footer{
         color:green;
         left:10%;
     }
+    .column a{
+        color:green;
+        
+    }
     /* .headercontainer li:active .servicecontent{
         opacity: 1;
         visibility: visible;
