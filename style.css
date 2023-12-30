@@ -1197,7 +1197,6 @@ footer{
         position:static;
         margin-left:0;
         width:100%;
-        display:block;
         background:#242627;
         opacity:0;
         visibility: hidden;
@@ -1214,19 +1213,38 @@ footer{
         width:100%;
     }    
 
-
     .column{
-        display:block;
+        display:none;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .headercontainer .nav-links li:hover .column{
+        display:inline-block;
         position:static;
         width:100%;
         margin-left:10px;
+        visibility: visible;
+        opacity:1;
+        transition:all 1s ease;
         
-    }
+    } 
+   
     .column ul{
+        position: static;
         display:none;
         visibility: hidden;
         opacity: 0;
     } 
+
+    .headercontainer .nav-links li .column .drop-down-title a:hover ul{
+        opacity: 1;
+        visibility: visible;
+        display:block;
+        position:static;
+        width:100%;
+    }
+
+
     /* 
     */
     /* .headercontainer li:active .servicecontent{
