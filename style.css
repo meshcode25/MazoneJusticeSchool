@@ -717,9 +717,9 @@ footer{
     .servicecontent{
     margin-left:0;
     width:300px;
-    top:65px;
+    top:60px;
     background:#242627;
-    position:absolute;
+    position:relative;
     opacity:0;
     visibility: hidden;
     border-radius:5px;
