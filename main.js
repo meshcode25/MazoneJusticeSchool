@@ -19,7 +19,7 @@ showmenu.addEventListener("click", ()=>{
 
 
     navlinks.setAttribute(
-        "style","position:absolute; top:0; left:0; display:block; opacity:1; visibility:visible; background-color: #242526; width:100%;"
+        "style","position:absolute; top:0; left:0; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%;"
     )
 });
 collapsemenu.addEventListener("click", ()=>{
