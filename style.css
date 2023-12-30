@@ -734,6 +734,7 @@ footer{
         position:absolute;
         width:100%;
         top:80px;
+        color:green;
         left:10%;
     }
     /* .headercontainer li:active .servicecontent{
