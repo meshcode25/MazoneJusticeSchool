@@ -51,14 +51,14 @@ nav a{
     color:green;
 }
 .headercontainer .nav-links li{
-list-style: none;
+    list-style: none;
 }
 .nav-links li a{
-font-size:18px;
-border-radius:5px;
-padding:7px 15px;
-transition:all 0.5s ease;
-font-weight: 500;
+    font-size:18px;
+    border-radius:5px;
+    padding:7px 15px;
+    transition:all 0.5s ease;
+    font-weight: 500;
 }
 .nav-links{
     display: flex;
@@ -147,9 +147,18 @@ font-weight: 500;
     top:82px;
     
 }
+.hamburgermenucontainer{
+    display:none;
+    visibility: hidden;
+    opacity:0;
+    transition:all 3s ease;
+}
+.hamburger{
+
+}
 
 .collapsecontainer{
-    padding-top:1rem;
+
     display:none;
     visibility: hidden;
     opacity:0;
@@ -168,9 +177,9 @@ font-weight: 500;
     justify-content: space-between;
 }
 .hookcontainer{
-padding:30px 0 0 30px;
-width:40%;  
-margin-left:5rem;
+    padding:30px 0 0 30px;
+    width:40%;  
+    margin-left:5rem;
 }
 .headerhook{
     font-size:45px;
@@ -320,9 +329,9 @@ margin-left:5rem;
     text-align:center;
 }
 .testimonialscontainer{
-position: absolute;
-top:1800px;
-width:100%;
+    position: absolute;
+    top:1800px;
+    width:100%;
 
 }
 .testimonials{
@@ -705,7 +714,7 @@ footer{
     transition:all 0.3s ease;
 } */
 
-.servicecontent{
+    .servicecontent{
 
     margin-left:0;
     width:300px;
@@ -718,17 +727,20 @@ footer{
     border-radius:5px;
     transition:all 0.5s ease;
     line-height: 30px;
+    height:70%;
+    overflow-y: scroll;
     }
     .column{
         display:block;
         width:100%;
     }
-    .headercontainer li:active .servicecontent{
+    /* .headercontainer li:active .servicecontent{
         opacity: 1;
         visibility: visible;
         top:82px;
         
-    }
+    } */
+
     .about-drop{
         margin-left:0;
         width:300px;
@@ -747,6 +759,35 @@ footer{
         display: block;
         width:100%;
     }
+    .deep-link{
+        display:none;
+        opacity:0;
+        visibility: hidden;
+
+    }
+    /* .nav-links li .servicecontent .row .column ul{
+        display:none;
+        opacity:0;
+        visibility: hidden;
+
+    }
+    .nav-links li .droplink .servicecontent .row .column h6 a:hover ul{
+        display:block;
+        visibility:visible;
+        opacity:1;
+    }
+    .headercontainer .nav-links li .servicecontent .row .column ul li a{
+        display:none;
+        opacity:0;
+        visibility: hidden;
+    }
+    .column{
+        display:none;
+        opacity:0;
+        visibility:hidden ;
+
+    } */
+
      /*JUmbot tron Hook */
      .jumbotron{
          position:static;
