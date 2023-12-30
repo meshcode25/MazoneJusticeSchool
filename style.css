@@ -760,6 +760,9 @@ footer{
     }
     .deep-link{
         display:none; 
+        visibility: hidden;
+        opacity:0;
+        
 
 
     }
