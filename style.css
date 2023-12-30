@@ -759,7 +759,7 @@ footer{
         width:100%;
     }
     .deep-link{
-        /* display:none;  */
+        display:none; 
 
 
     }
