@@ -729,7 +729,7 @@ footer{
         transition:all 0.5s ease;
 
     }
-
+/* 
     .column{
         display:block;
         position:absolute;
@@ -742,7 +742,7 @@ footer{
         color:green;
         display: block;
         background-color:black;
-    }
+    } */
     /* .headercontainer li:active .servicecontent{
         opacity: 1;
         visibility: visible;
