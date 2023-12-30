@@ -1228,6 +1228,16 @@ footer{
         transition:all 0.5s ease;
 
     }
+    .headercontainer .nav-links li:hover .column{
+        display:inline-block;
+        position:static;
+        width:100%;
+        margin-left:10px;
+        visibility: visible;
+        opacity:1;
+        transition:all 1s ease;
+        
+    } 
      .servicecontent .row .column h6 a:hover ul{
         opacity: 1;
         visibility: visible;
@@ -1241,16 +1251,6 @@ footer{
         visibility: hidden;
         opacity: 0;
     }
-    .headercontainer .nav-links li:hover .column{
-        display:inline-block;
-        position:static;
-        width:100%;
-        margin-left:10px;
-        visibility: visible;
-        opacity:1;
-        transition:all 1s ease;
-        
-    } 
    
     .column ul{
         position: static;
@@ -1259,13 +1259,13 @@ footer{
         opacity: 0;
     } 
 
-    .headercontainer .nav-links li .servicedrop .servicecontent .row .column h6 a:hover ul{
+    /* .headercontainer .nav-links li .servicedrop .servicecontent .row .column h6 a:hover ul{
         opacity: 1;
         visibility: visible;
         display:block;
         position:static;
         width:100%;
-    }
+    } */
 
 
     /* 
