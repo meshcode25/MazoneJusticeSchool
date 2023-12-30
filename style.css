@@ -734,7 +734,7 @@ footer{
         position:absolute;
         width:100%;
         top:80px;
-        left:50%;
+        left:10%;
     }
     /* .headercontainer li:active .servicecontent{
         opacity: 1;
@@ -762,9 +762,9 @@ footer{
         width:100%;
     }
     .deep-link{
-        display:none; 
+        /* display:none; 
         visibility: hidden;
-        opacity:0;
+        opacity:0; */
 
 
 
