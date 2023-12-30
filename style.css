@@ -147,6 +147,17 @@ font-weight: 500;
     top:82px;
     
 }
+
+.collapsecontainer{
+    padding-top:1rem;
+    display:none;
+    visibility: hidden;
+    opacity:0;
+    transition:all 3s ease;
+}
+.collapse{
+
+}
 .jumbotron{
     background-color: blu;
     position: absolute;
@@ -1023,7 +1034,7 @@ footer{
     }
  }
 
- 
+
 @media only screen and (min-width:481px) and (max-width:768px){    
     nav{
         position:sticky;
