@@ -729,20 +729,19 @@ footer{
         transition:all 0.5s ease;
 
     }
-/* 
     .column{
         display:block;
-        position:absolute;
+        position:static;
         width:100%;
-        top:80px;
-        color:green;
-        left:10%;
+        
     }
-    .column a{
-        color:green;
-        display: block;
-        background-color:black;
-    } */
+    .column ul{
+        display:none;
+        visibility: hidden;
+        opacity: 0;
+    } 
+    /* 
+    */
     /* .headercontainer li:active .servicecontent{
         opacity: 1;
         visibility: visible;
