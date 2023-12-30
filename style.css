@@ -715,13 +715,11 @@ footer{
 } */
 
     .servicecontent{
-
     margin-left:0;
-    position:relative;
     width:300px;
-    top:0;
-    left:0;
+    top:65px;
     background:#242627;
+    position:absolute;
     opacity:0;
     visibility: hidden;
     border-radius:5px;
