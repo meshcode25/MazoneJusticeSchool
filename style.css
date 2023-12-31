@@ -783,7 +783,7 @@ footer{
 
     }
     .about-drop li a{
-        font-size:15px;
+        font-size:16.5px;
         display: block;
         width:100%;
     }
@@ -800,6 +800,7 @@ footer{
         transition:all 0.5s ease;
         
     }
+
     /* 
     .deep-link{
         display:none; 
