@@ -738,10 +738,10 @@ footer{
 
     
     .column ul{
-        /* position: static;
+        position: static;
         display:none;
         visibility: hidden;
-        opacity: 0; */
+        opacity: 0;
     } 
 
     .headercontainer .nav-links li:hover .column{
