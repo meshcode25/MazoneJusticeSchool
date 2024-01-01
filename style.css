@@ -763,7 +763,7 @@ footer{
         width:100%;
     }
     
-    .dropdaycare:hover .playgroupcollapse {
+    .dropcolumn .drop-down-playgroup:hover .playgroupcollapse {
         opacity: 1;
         visibility: visible;
         display:block;
