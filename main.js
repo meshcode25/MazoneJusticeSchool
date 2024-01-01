@@ -6,6 +6,12 @@ var collapsemenu=document.getElementById("collapsemenu");
 var navlinks=document.getElementById("nav-links");
 
 
+
+var dropplaygroup= document.getElementsByClassName("drop-down-playgroup");
+var playgroupcollapse= document.getElementsByClassName("playgroupcollapse");
+
+
+
 showmenu.addEventListener("click", ()=>{
     showmenu.style.display="none";
     
@@ -36,3 +42,10 @@ collapsemenu.addEventListener("click", ()=>{
     navlinks.removeAttribute("style");
 
 })
+
+
+dropplaygroup.addEventListener("click", ()=>{
+    playgroupcollapse.setAttribute(
+        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%;"
+    )
+});
