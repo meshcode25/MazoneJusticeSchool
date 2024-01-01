@@ -44,9 +44,9 @@ collapsemenu.addEventListener("click", ()=>{
 })
 
 
-dropplaygroup.addEventListener("click", ()=>{
+dropplaygroup.addEventListener("mouseover", ()=>{
     dropplaygroup.style.backgroundColor="yellow";
-
+   
     playgroupcollapse.setAttribute(
         "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%;"
     )

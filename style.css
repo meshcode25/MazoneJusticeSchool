@@ -1270,6 +1270,13 @@ footer{
         opacity: 0;
     } 
 
+    .dropcolumn .drop-down-playgroup:hover #playgroupcollapse {
+        opacity: 1;
+        visibility: visible;
+        display:block;
+        position:static;
+        width:100%;
+    }
     /* .headercontainer .nav-links li .servicedrop .servicecontent .row .column h6 a:hover ul{
         opacity: 1;
         visibility: visible;
