@@ -755,7 +755,7 @@ footer{
         
     } 
 
-    .headercontainer .nav-links li .servicedrop .servicecontent .row .column h6 a:hover ul{
+    .headercontainer .nav-links li .servicedrop .servicecontent .row .column h6:hover ul{
         opacity: 1;
         visibility: visible;
         display:block;
