@@ -7,8 +7,8 @@ var navlinks=document.getElementById("nav-links");
 
 
 
-var dropplaygroup= document.getElementsByClassName("drop-down-playgroup");
-var playgroupcollapse= document.getElementsByClassName("playgroupcollapse");
+var dropplaygroup= document.getElementById("drop-down-playgroup");
+var playgroupcollapse= document.getElementById("playgroupcollapse");
 
 
 
@@ -46,7 +46,7 @@ collapsemenu.addEventListener("click", ()=>{
 
 dropplaygroup.addEventListener("click", ()=>{
     dropplaygroup.style.backgroundColor="yellow";
-    
+
     playgroupcollapse.setAttribute(
         "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%;"
     )
