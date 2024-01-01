@@ -763,6 +763,16 @@ footer{
         width:100%;
     }
     
+    .dropdaycare:hover .playgroupcollapse {
+        opacity: 1;
+        visibility: visible;
+        display:block;
+        position:static;
+        width:100%;
+    }
+    .dropkinda .kindacollapse{}
+    .dropprimary .primarycollapse{}
+    .dropsecondary .secondarycollapse{}
     
     /* 
     */
