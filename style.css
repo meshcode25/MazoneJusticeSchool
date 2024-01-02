@@ -864,7 +864,7 @@ footer{
         position:static;
         width:100%;
         display:block;
-        height:50px;
+        height:auto;
         border: 2px solid black; 
       
     }
@@ -896,13 +896,14 @@ footer{
      }
      
      .hookimage{
+        
          position: center;
          size: cover;
          border-radius: 5px;
          width:100%;
          height:auto;
          margin:0;
-         display:none;
+         /* display:none; */
 
         
      }
@@ -918,7 +919,7 @@ footer{
         display: block;
         position:static;
         margin:0 auto;
-        padding:10px 0;   
+        padding:2px 0;   
     }
     .google, .facebook, .clutch{
         margin:0;
@@ -926,7 +927,7 @@ footer{
         color:white;
     }
     .googlediv, .facebookdiv, .clutchdiv{
-        padding-top:20px;
+        padding:20px 0;
     }
     .review div p{
         padding:0;
@@ -995,6 +996,33 @@ footer{
     .test1, .test2, .test3{
         width:80%;
     }
+
+    .testimagediv1{
+        width:200px;
+        height:200px;
+        background: url("Images/parent1.jpg") no-repeat center/cover;
+        border-radius:100%;
+        margin:0 auto;
+    }
+    .testname{
+        padding-top:20px;
+        margin-left:20px; 
+        font-weight:700;
+    }
+    .testimagediv2{
+        width:150px;
+        height:150px;
+        margin:0 auto;
+        background: url("Images/parent2.jpg") no-repeat center/cover;
+        border-radius:100%;
+    }
+    .testimagediv3{
+        width:100px;
+        margin:0 auto;
+        height:100px;
+        background: url("Images/mazoneimg1.png") no-repeat center/cover;
+        border-radius:100%;
+    }
  
     .chooseheader{
         height:auto;
@@ -1013,14 +1041,14 @@ footer{
     }
 
     .chooseus2{
-    display: block;
-    height:auto;
+        display: block;
+        height:auto;
     }
 
     .chooseus2 div{
-    display:block;
-    width:80%;
-    margin:0 auto;
+        display:block;
+        width:80%;
+        margin:0 auto;
     }
     .chooselogic{
         display:block;
