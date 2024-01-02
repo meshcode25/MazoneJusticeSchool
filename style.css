@@ -963,11 +963,15 @@ footer{
         width:90%;
         height:auto;
     }
-    .caseimage1div, .caseimage2div{
+    .caseimg1div, .caseimg2div{
         width:70%;
         margin:0 auto;
 
     }
+    /* .caseimage1, .caseimage2{
+        width:100%;
+        margin:0 auto;
+    } */
 
     .testheader{
         position:static;
