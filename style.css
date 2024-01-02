@@ -763,7 +763,7 @@ footer{
     .dropprimary .primarycollapse{}
     .dropsecondary .secondarycollapse{}
     
-    .droplink, .about-link .resources, .contact{
+    .droplink, .resources, .contact, .about-link1{
         font-size:28px;
         font-weight:600;
         color:blue;
@@ -778,7 +778,7 @@ footer{
     
     }
     .column li a{
-        font-size:25px;
+        font-size:16px;
         display:block;
         font-weight:500;
         margin:0;
