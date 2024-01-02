@@ -943,7 +943,7 @@ footer{
         height:auto;
         display: block;
         height:auto;
-        margin: 2rem 0;
+        margin: 2.5rem 0 0 0 0;
     
     }
     .caseheader{
@@ -955,7 +955,7 @@ footer{
         position:static;
         display: block;
         height:auto;
-        margin: 2rem 0;
+        margin: 3rem 0;
      
     }
     .casestudy{
@@ -981,6 +981,7 @@ footer{
         position:static;
         display: block;
         height:auto;
+        margin:2rem auto;
 
     }
     .testimonialscontainer{
@@ -988,15 +989,18 @@ footer{
         width:95%;
         text-align: center;
         height:auto;
+        margin:2rem auto;
 
     }
     .testimonials{
         margin:0 auto;
         display:block;
         width:80%;
+        margin:3rem auto;
     }
     .test1, .test2, .test3{
         width:80%;
+        margin: 1rem auto;
     }
 
     .testimagediv1{
