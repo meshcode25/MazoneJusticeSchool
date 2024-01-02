@@ -957,7 +957,8 @@ footer{
         width:100%;
     }
     .case1, .case2{
-        width:100%;
+        margin:0 auto;
+        width:70%;
         height:auto;
     }
     .testheader{
