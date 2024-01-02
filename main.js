@@ -117,7 +117,7 @@ dropsecondary.addEventListener("mouseenter", ()=>{
     dropsecondary.style.backgroundColor;
    
     secondarycollapse.setAttribute(
-        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%; margin-left:5px"
+        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:100%; margin-left:5px"
     )
 });
 
