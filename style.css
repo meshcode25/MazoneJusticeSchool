@@ -943,7 +943,7 @@ footer{
         height:auto;
         display: block;
         height:auto;
-        margin: 4rem auto 1rem auto;
+        margin: 4rem auto 0rem auto;
     
     }
     .caseheader{
@@ -963,7 +963,7 @@ footer{
         width:100%;
     }
     .case1, .case2{
-        margin:5rem auto;
+        margin:2rem auto;
         width:90%;
         height:auto;
     }
@@ -1000,7 +1000,7 @@ footer{
     }
     .test1, .test2, .test3{
         width:80%;
-        margin: 2rem auto;
+        margin: 1rem auto 3.2rem auto;
     }
 
     .testimagediv1{
