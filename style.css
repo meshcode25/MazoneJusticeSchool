@@ -925,6 +925,8 @@ footer{
         margin:0;
         padding:0;
         color:white;
+        font-size: medium;
+        
     }
     .googlediv, .facebookdiv, .clutchdiv{
         padding:20px 0;
