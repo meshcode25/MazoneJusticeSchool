@@ -967,8 +967,14 @@ footer{
         width:90%;
         height:auto;
     }
-    .caseimg1div, .caseimg2div{
+    .caseimg1div{
         width:70%;
+        margin:0 auto;
+        
+    }
+    
+    .caseimg2div{
+        width:100%;
         margin:0 auto;
 
     }
@@ -1006,7 +1012,7 @@ footer{
     .testimagediv1{
         width:200px;
         height:200px;
-        background: url("Images/parent1.jpg") no-repeat center/cover;
+        background: url("Images/mazoneimg6.png") no-repeat center/cover;
         border-radius:100%;
         margin:0 auto;
     }
@@ -1019,7 +1025,7 @@ footer{
         width:150px;
         height:150px;
         margin:0 auto;
-        background: url("Images/parent2.jpg") no-repeat center/cover;
+        background: url("Images/mazoneimg8.jpg") no-repeat center/cover;
         border-radius:100%;
     }
     .testimagediv3{
