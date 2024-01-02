@@ -763,7 +763,7 @@ footer{
     .dropprimary .primarycollapse{}
     .dropsecondary .secondarycollapse{}
     
-    .nav-links li a{
+    .nav-links li {
         font-size:28px;
         color:blue;
         border-radius:5px;
