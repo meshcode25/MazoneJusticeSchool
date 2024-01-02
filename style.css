@@ -772,7 +772,7 @@ footer{
     }
     .column h6{
         font-size:20px;
-        padding-left: 12px;
+        /* padding-left: 12px; */
         color:#fff;
         font-weight:500;
     
@@ -782,8 +782,8 @@ footer{
         display:block;
         font-weight:400;
         margin:0;
-        padding:6px 0;
-        line-height:30px;
+        padding:3px 0;
+        line-height:15px;
     }
     
     
