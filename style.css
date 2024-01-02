@@ -764,7 +764,8 @@ footer{
     .dropsecondary .secondarycollapse{}
     
     .nav-links li a{
-        font-size:18px;
+        font-size:28px;
+        color:blue;
         border-radius:5px;
         /* padding:7px 15px; */
         transition:all 0.5s ease;
@@ -778,11 +779,11 @@ footer{
     
     }
     .column li a{
-        font-size:15px;
+        font-size:25px;
         display:block;
         font-weight:400;
         margin:0;
-        padding:3px 0;
+        padding:6px 0;
         line-height:15px;
     }
     
