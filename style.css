@@ -764,8 +764,8 @@ footer{
     .dropsecondary .secondarycollapse{}
     
     .droplink, .resources, .contact, .about-link1{
-        font-size:28px;
-        font-weight:600;
+        font-size:34px;
+        font-weight:800;
         color:blue;
 
     }
@@ -782,7 +782,7 @@ footer{
         display:block;
         font-weight:500;
         margin:0;
-        padding:6px 0;
+        padding:12px 0;
         line-height:15px;
     }
     
@@ -808,6 +808,8 @@ footer{
     }
     .about-drop li a{
         font-size:16.5px;
+        padding:0;
+        margin:0;
         display: block;
         width:100%;
     }
