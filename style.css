@@ -764,8 +764,8 @@ footer{
     .dropsecondary .secondarycollapse{}
     
     .droplink, .resources, .contact, .about-link1{
-        font-size:54px;
-        font-weight:1200;
+        font-size: xx-large;
+        font-weight:bolder;
         color:blue;
 
     }

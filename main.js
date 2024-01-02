@@ -71,7 +71,7 @@ dropplaygroup.addEventListener("mouseenter", ()=>{
    
    
     playgroupcollapse.setAttribute(
-        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%; margin-left:20px"
+        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:100%; margin-left:8px"
     )
 });
 
@@ -86,7 +86,7 @@ dropkinda.addEventListener("mouseenter", ()=>{
     dropkinda.style.backgroundColor;
    
     kindacollapse.setAttribute(
-        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%; margin-left:20px"
+        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:100%; margin-left:5px"
     )
 });
 
@@ -102,7 +102,7 @@ dropprimary.addEventListener("mouseenter", ()=>{
     dropprimary.style.backgroundColor;
    
     primarycollapse.setAttribute(
-        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%; margin-left:20px"
+        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:100%; margin-left:10px"
     )
 });
 
