@@ -764,9 +764,9 @@ footer{
     .dropsecondary .secondarycollapse{}
     
     .droplink, .resources, .contact, .about-link1{
-        font-size: xx-large;
-        font-weight:bolder;
-        color:blue;
+        font-size:large;
+        font-weight:900;
+        color:green;
 
     }
 
@@ -808,11 +808,11 @@ footer{
     }
     .about-drop li a{
         font-size:16.5px;
-        padding:0;
+        padding:5px 0;
         margin:0;
         display: block;
         width:100%;
-        color:yellow;
+    
     }
 
     .headercontainer li:hover .about-drop{    
@@ -826,6 +826,8 @@ footer{
         border-radius:5px;
         transition:all 0.5s ease;
         font-size:20px;
+        padding:0; 
+        margin:0;
         
         
     }
