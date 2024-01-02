@@ -1023,16 +1023,16 @@ footer{
         font-weight:700;
     }
     .testimagediv2{
-        width:150px;
-        height:150px;
+        width:200px;
+        height:200px;
         margin:0 auto;
         background: url("Images/mazoneimg4.png") no-repeat center/cover;
         border-radius:100%;
     }
     .testimagediv3{
-        width:100px;
+        width:200px;
         margin:0 auto;
-        height:100px;
+        height:200px;
         background: url("Images/mazoneimg1.png") no-repeat center/cover;
         border-radius:100%;
     }
