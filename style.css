@@ -734,6 +734,9 @@ footer{
         display:none;
         visibility: hidden;
         opacity: 0;
+        position: absolute;
+        left:0;
+        top:0;
     }
 
     
@@ -748,28 +751,14 @@ footer{
         display:inline-block;
         position:static;
         width:100%;
-        margin-left:5px;
+        margin-left:0;
         visibility: visible;
         opacity:1;
         transition:all 1s ease;
         
     } 
 
-    .headercontainer .nav-links li .servicedrop .servicecontent .row .column h6:hover ul{
-        opacity: 1;
-        visibility: visible;
-        display:block;
-        position:static;
-        width:100%;
-    }
-    
-    .dropcolumn .drop-down-playgroup:hover .playgroupcollapse {
-        opacity: 1;
-        visibility: visible;
-        display:block;
-        position:static;
-        width:100%;
-    }
+
     .dropkinda .kindacollapse{}
     .dropprimary .primarycollapse{}
     .dropsecondary .secondarycollapse{}
@@ -1153,12 +1142,6 @@ footer{
         visibility:hidden;
         
         
-            
-        /*
-        display:block;
-        opacity:1;
-        visibility: visible;    
-        */
      }
  
      .containerlinks{
@@ -1214,19 +1197,6 @@ footer{
         color:white;
     }
 
-/* .servicecontent{
-    opacity: 0;
-    visibility: hidden;
-    line-height: 15px;
-    width:100%;
-    top:65px;
-    left:0;
-    background-color:#242526;
-    border-radius: 5px;
-    position:absolute;
-    transition:all 0.3s ease;
-} */
-
     .servicecontent{
         position:static;
         margin-left:0;
@@ -1243,7 +1213,7 @@ footer{
         display:inline-block;
         position:static;
         width:100%;
-        margin-left:10px;
+        margin-left:0;
         visibility: visible;
         opacity:1;
         transition:all 1s ease;
@@ -1261,6 +1231,10 @@ footer{
         display:none;
         visibility: hidden;
         opacity: 0;
+        position: absolute;
+        top:0;
+        left:0;
+
     }
    
     .column ul{
@@ -1277,29 +1251,14 @@ footer{
         position:static;
         width:100%;
     }
-    /* .headercontainer .nav-links li .servicedrop .servicecontent .row .column h6 a:hover ul{
-        opacity: 1;
-        visibility: visible;
-        display:block;
-        position:static;
-        width:100%;
-    } */
-
-
-    /* 
-    */
-    /* .headercontainer li:active .servicecontent{
-        opacity: 1;
-        visibility: visible;
-        top:82px;
-        
-    } */
-
+   
 
     .about-drop{
         display:none;
         visibility: hidden;
         opacity:0;
+        height:0;
+        transition: all 1s ease;
  
      }
      .about-drop li a{
@@ -1316,43 +1275,13 @@ footer{
          opacity:1;
          visibility: visible;
          display: block;
-         border-radius:5px;
+         height: auto;
+         border-radius:10px;
          transition:all 0.5s ease;
+
          
      }
     
-    /*
-    .deep-link{
-         display:none; 
-        visibility: hidden;
-        opacity:0;
-    }
-    
-    */
-
-
-    /* .nav-links li .servicecontent .row .column ul{
-        display:none;
-        opacity:0;
-        visibility: hidden;
-
-    }
-    .nav-links li .droplink .servicecontent .row .column h6 a:hover ul{
-        display:block;
-        visibility:visible;
-        opacity:1;
-    }
-    .headercontainer .nav-links li .servicecontent .row .column ul li a{
-        display:none;
-        opacity:0;
-        visibility: hidden;
-    }
-    .column{
-        display:none;
-        opacity:0;
-        visibility:hidden ;
-
-    } */
 
      /*JUmbot tron Hook */
      .jumbotron{

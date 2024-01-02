@@ -27,29 +27,37 @@ var secondarycollapse= document.getElementById("secondarycollapse");
 showmenu.addEventListener("click", ()=>{
     showmenu.style.display="none";
     
-    showmenu.style.animate="all 2s ease";
+    showmenu.style.animation="all 2s ease";
     showmenu.style.visibility="hidden"
-    showmenu.style.opacity="1"
+    showmenu.style.opacity="0"
     
     collapsemenu.style.display="block"
     collapsemenu.style.visibility="visible"
     collapsemenu.style.opacity="1"
     collapsemenu.style.transition="all 2s ease"
+    collapsemenu.style.animation="all 2s ease"
 
 
 
     navlinks.setAttribute(
-        "style","position:absolute; top:0; left:0; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%;"
+        "style","position:absolute; top:82px; left:0; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%;"
     )
 });
 
 collapsemenu.addEventListener("click", ()=>{
     collapsemenu.style.display="none";
     
-    collapsemenu.style.animate="all 2s ease";
+    collapsemenu.style.animation="all 2s ease";
+    collapsemenu.style.transition="all 2s ease";
+
     collapsemenu.style.visibility="hidden"
-    collapsemenu.style.opacity="1"
+    collapsemenu.style.opacity="0"
     
+
+    showmenu.style.transition="all 2s ease"
+    showmenu.style.animation="all 2s ease"
+
+
     showmenu.style.display="block"
     showmenu.style.visibility="visible"
     showmenu.style.opacity="1"
@@ -63,7 +71,7 @@ dropplaygroup.addEventListener("mouseenter", ()=>{
    
    
     playgroupcollapse.setAttribute(
-        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%;"
+        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%; margin-left:20px"
     )
 });
 
@@ -78,7 +86,7 @@ dropkinda.addEventListener("mouseenter", ()=>{
     dropkinda.style.backgroundColor;
    
     kindacollapse.setAttribute(
-        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%;"
+        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%; margin-left:20px"
     )
 });
 
@@ -94,7 +102,7 @@ dropprimary.addEventListener("mouseenter", ()=>{
     dropprimary.style.backgroundColor;
    
     primarycollapse.setAttribute(
-        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%;"
+        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%; margin-left:20px"
     )
 });
 
@@ -109,7 +117,7 @@ dropsecondary.addEventListener("mouseenter", ()=>{
     dropsecondary.style.backgroundColor;
    
     secondarycollapse.setAttribute(
-        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%;"
+        "style","position:static; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%; margin-left:20px"
     )
 });
 
