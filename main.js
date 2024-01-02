@@ -34,6 +34,8 @@ showmenu.addEventListener("click", ()=>{
     collapsemenu.style.display="block"
     collapsemenu.style.visibility="visible"
     collapsemenu.style.opacity="1"
+    collapsemenu.style.transition="all 2s ease"
+
 
 
     navlinks.setAttribute(
