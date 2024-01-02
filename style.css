@@ -989,18 +989,18 @@ footer{
         width:95%;
         text-align: center;
         height:auto;
-        margin:2rem auto;
+        margin:0 auto 4rem auto;
 
     }
     .testimonials{
         margin:0 auto;
         display:block;
         width:80%;
-        margin:3rem auto;
+        margin:2rem auto 3rem auto;
     }
     .test1, .test2, .test3{
         width:80%;
-        margin: 1rem auto;
+        margin: 5rem auto;
     }
 
     .testimagediv1{
