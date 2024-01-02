@@ -40,7 +40,7 @@ showmenu.addEventListener("click", ()=>{
 
 
     navlinks.setAttribute(
-        "style","position:absolute; top:82px; left:0; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%;"
+        "style","position:absolute; top:82px; left:0; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%; overflow-y:scroll"
     )
 });
 

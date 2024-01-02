@@ -800,34 +800,6 @@ footer{
         
     }
 
-    /* 
-    .deep-link{
-        display:none; 
-        visibility: hidden;
-    }
-    opacity:0; */
-    /* .nav-links li .servicecontent .row .column ul{
-        display:none;
-        opacity:0;
-        visibility: hidden;
-
-    }
-    .nav-links li .droplink .servicecontent .row .column h6 a:hover ul{
-        display:block;
-        visibility:visible;
-        opacity:1;
-    }
-    .headercontainer .nav-links li .servicecontent .row .column ul li a{
-        display:none;
-        opacity:0;
-        visibility: hidden;
-    }
-    .column{
-        display:none;
-        opacity:0;
-        visibility:hidden ;
-
-    } */
 
      /*JUmbot tron Hook */
      .jumbotron{
@@ -861,7 +833,7 @@ footer{
         position:static;
         width:100%;
         display:block;
-        height:auto;
+        height:50px;
         border: 2px solid black; 
       
     }
