@@ -1082,9 +1082,12 @@ footer{
         position:static;
         height:auto;
         margin-bottom:2rem;
+        width:100%;
+        height:auto;
     }
     .awards{
-
+        width:100%;
+        height:auto;
     }
 
     .blogscontainer{
