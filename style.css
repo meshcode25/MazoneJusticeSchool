@@ -640,7 +640,7 @@ footer{
 
 @media only screen and (max-width:480px){    
     nav{
-        position:fixed;
+        position:static;
         width:100%;
         display:block;
          margin:0;
