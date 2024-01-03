@@ -208,34 +208,34 @@ let currentImage=0;
 let imageslides;
 
 function changeImage(){
-    for(i=0; i<imageslides.length; i++){
-        imageslides[i].style.opacity=0;
+    for(i=0; i<images.length; i++){
+        images[i].style.opacity=0;
         
 
-        imageslides[i].style.display="none";
+        images[i].style.display="none";
     
-        imageslides[i].style.visibility="hidden"
+        images[i].style.visibility="hidden"
     }
 
     
 
-    imageslides[currentImage].style.opacity=1;
+    images[currentImage].style.opacity=1;
 
-    imageslides[currentImage].style.display="block";
+    images[currentImage].style.display="block";
 
-    imageslides[currentImage].style.visibility="visible"
+    images[currentImage].style.visibility="visible"
 
     
-    imageslides[currentImage].style.position="relative"
+    images[currentImage].style.position="relative"
 
-    imageslides[currentImage].style.left="0";
-    imageslides[currentImage].style.top="0";
+    images[currentImage].style.left="0";
+    images[currentImage].style.top="0";
     
 
     // slides[currentSlide].style.backgroundColor="purple";
 
 
-    currentImage=(currentImage+1) % slides.length
+    currentImage=(currentImage+1) % images.length
 
 }
 
