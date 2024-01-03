@@ -25,22 +25,33 @@ var secondarycollapse= document.getElementById("secondarycollapse");
 //slides for the blog posts 
 var slides=document.querySelectorAll(".blog");
 var currentSlide=0;
+let blogslides;
 
-function ChangeSlides(n){
+function ChangeSlides(){
     for(i=0; i<slides.length; i++){
         slides[i].style.opacity=0;
     }
 
-    currentSlide=n;
+    
 
     slides[currentSlide].style.opacity=1;
 
+    slides[currentSlide].style.display="block";
+
     slides[currentSlide].style.backgroundColor="purple";
 
-    currentSlide=(n+1) % slides.length;
+    
+    if(currentSlide===slides.length){
+        currentSlide=0;
+    }else{
+        currentSlide++;
+    }
+    console.log(`slides. lenghth" ${slides.length}`)
+    console.log(currentSlide)
 }
 
-setInterval(ChangeSlides(currentSlide), 3000)
+blogslides=setInterval(ChangeSlides,3000)
+
 
 //header hamburger and collapse menu
 showmenu.addEventListener("click", ()=>{
