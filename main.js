@@ -1,5 +1,8 @@
 //toggle and untoggle service display on hover
 
+var Screensizes=[0,480,768,996,1200]
+
+
 var showmenu= document.getElementById("showmenu");
 
 var collapsemenu=document.getElementById("collapsemenu");
@@ -24,7 +27,7 @@ var secondarycollapse= document.getElementById("secondarycollapse");
 
 //slides for the blog posts 
 var slides=document.querySelectorAll(".blog");
-var currentSlide=0;
+let currentSlide=0;
 let blogslides;
 
 function ChangeSlides(){
@@ -38,19 +41,18 @@ function ChangeSlides(){
 
     slides[currentSlide].style.display="block";
 
-    slides[currentSlide].style.backgroundColor="purple";
+    // slides[currentSlide].style.backgroundColor="purple";
 
-    
-    if(currentSlide===slides.length){
-        currentSlide=0;
-    }else{
-        currentSlide++;
-    }
-    console.log(`slides. lenghth" ${slides.length}`)
-    console.log(currentSlide)
+
+    currentSlide=(currentSlide+1) % slides.length
+
 }
 
-blogslides=setInterval(ChangeSlides,3000)
+if(window.innerWidth <= Screensizes[2]){
+    blogslides=setInterval(ChangeSlides,3000);
+}else{
+
+} 
 
 
 //header hamburger and collapse menu
