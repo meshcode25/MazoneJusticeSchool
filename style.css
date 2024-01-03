@@ -861,7 +861,7 @@ footer{
     }
      .hookimgcontainer{ 
         position:static;
-        width:90%;
+        width:100%;
         display:block;
         height:auto;
         border: 2px solid black; 
@@ -899,7 +899,7 @@ footer{
          position: center;
          size: cover;
          border-radius: 5px;
-         width:90%;
+         width:100%;
          height:auto;
          margin:0;
          /* display:none; */
