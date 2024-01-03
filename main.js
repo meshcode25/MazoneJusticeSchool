@@ -37,7 +37,7 @@ var secondarycollapse= document.getElementById("secondarycollapse");
             // current scroll position
             const currentScrollPos = window.pageYOffset;
 
-            if (prevScrollPos < currentScrollPos) {
+            if (prevScrollPos > currentScrollPos) {
                 // user has scrolled up
                 document.querySelector('nav').classList.add('hidenav');
             } else {

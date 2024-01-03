@@ -617,8 +617,11 @@ footer{
 
 @media only screen and (max-width:480px){    
     nav{
-        position:absolute;
+        position:relative;
+        top:0;
+        left:0;
         width:100%;
+        display:block;
          margin:0;
          height:72px;
      }
