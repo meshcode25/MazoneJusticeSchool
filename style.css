@@ -1076,11 +1076,16 @@ footer{
     .awardsheader{
         position:static;
         height:auto;
+        margin-bottom:2rem;
     }
     .awardscontainer{
         position:static;
         height:auto;
     }
+    .awards{
+
+    }
+    
     .blogscontainer{
         position:static;
         height:auto;
