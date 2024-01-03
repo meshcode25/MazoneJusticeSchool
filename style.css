@@ -1119,6 +1119,7 @@ footer{
         text-align: left;
         opacity:0;
         display:none;
+        visibility: hidden;
     }
 
     .servicesheader{ 

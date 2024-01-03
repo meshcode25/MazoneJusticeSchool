@@ -41,6 +41,8 @@ function ChangeSlides(){
 
     slides[currentSlide].style.display="block";
 
+    slides[currentSlide].style.visibility="visible"
+
     // slides[currentSlide].style.backgroundColor="purple";
 
 
