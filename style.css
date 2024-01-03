@@ -618,7 +618,6 @@ footer{
 @media only screen and (max-width:480px){    
     nav{
         position: sticky;
-        display: block;
         width:100%;
          margin:0;
          height:72px;
