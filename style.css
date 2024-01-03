@@ -1182,25 +1182,25 @@ footer{
 
     }
     .quotemail{
-        width:90%;
+        width:80%;
     }
     .buttons{
         display: block;
-        width:90%;
+        width:80%;
         padding:1rem;
         margin: 0 auto;
     }
     .contactus{
         width:70%;
-        padding:1rem 0;
+        padding:10px;
         margin:0 auto;
         display:block;
     } 
     
     .quoteus{
-        padding:10px 0;
+        padding:10px;
         width:70%;
-        margin:0 auto;
+        margin:1rem auto 0 auto;
         display:block;
     }
     footer{
@@ -1215,17 +1215,16 @@ footer{
         display: block;
         position:static;
         text-align: left;
-        padding:0;
+        padding:2rem;
         margin:0;
    
     }
     .footercontainer div ul{
-        margin:0.5rem auto;
-        padding:0;
+        padding:0.5rem 1rem 0.5rem 2rem;
    
     }
     .footercontainer div ul li a{
-        text-decoration: none;
+        /*text-decoration: none;*/
     }
     .final{
         width:100%;
@@ -1686,6 +1685,7 @@ footer{
     .final{
         margin:0;
         display:block;
+        padding:1rem 0.5rem;
     }
  }
 
