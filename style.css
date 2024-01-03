@@ -896,7 +896,7 @@ footer{
          position:relative;
          top:72px;
          display:block;
-         max-height:max-content;
+         height: auto;
          margin:0;
          width:100%;
     

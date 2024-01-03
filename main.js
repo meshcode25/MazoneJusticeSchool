@@ -207,7 +207,7 @@ if(window.innerWidth <= Screensizes[2]){
 
 
 //slides for the After Jumbotron Images 
-var images=document.querySelectorAll(".hookimagediv");
+var images=document.querySelectorAll(".hookimage");
 let currentImage=0;
 let imageslides;
 
