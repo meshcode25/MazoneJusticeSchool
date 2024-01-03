@@ -895,7 +895,8 @@ footer{
 
      /*JUmbot tron Hook */
      .jumbotron{
-         position:static;
+         position:relative;
+         top:72px;
          display:block;
          max-height:max-content;
          margin:0;
