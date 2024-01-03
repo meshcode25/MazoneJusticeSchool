@@ -1115,8 +1115,7 @@ footer{
         width:100%;
         margin:0 auto;
         display:block;
-        opacity:0;
-        visibility: hidden;
+      
     }
     .blog{
         padding:10px;
