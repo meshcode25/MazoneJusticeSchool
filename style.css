@@ -622,11 +622,11 @@ footer{
          margin:0;
          height:72px;
      }
-     .hidenav{
+     /* .hidenav{
         visibility: hidden;
         opacity: 0;
         display:none;
-     }
+     } */
 
      
      .headercontainer{
