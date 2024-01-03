@@ -1115,7 +1115,8 @@ footer{
         background-color:white;
         width:80%;
         height:auto;
-        margin:1rem 0;
+        margin:1rem auto;
+        text-align: left;
     }
 
     .servicesheader{ 
@@ -1136,6 +1137,7 @@ footer{
     .service{
         display:block;
         width:100%;
+        text-align:left;
         
     }
     .service h1{
