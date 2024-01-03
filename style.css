@@ -669,13 +669,6 @@ footer{
         opacity:0;
         visibility:hidden;
         
-        
-            
-        /*
-        display:block;
-        opacity:1;
-        visibility: visible;    
-        */
      }
  
      .containerlinks{
@@ -730,21 +723,6 @@ footer{
     .collapsecontainer a{
         color:white;
     }
-
-/* .servicecontent{
-    opacity: 0;
-    visibility: hidden;
-    line-height: 15px;
-    width:100%;
-    top:65px;
-    left:0;
-    background-color:#242526;
-    border-radius: 5px;
-    position:absolute;
-    transition:all 0.3s ease;
-} */
-
-
 
     .servicecontent{
         position:static;
@@ -817,19 +795,6 @@ footer{
     }
     
     
-    
-    /* 
-    */
-    /* .headercontainer li:active .servicecontent{
-        opacity: 1;
-        visibility: visible;
-        top:82px;
-        
-    } */
-    
-    /* .servicecontent .row .column h6 a:hover ul */
-
-    
     .about-drop{
        display:none;
        visibility: hidden;
@@ -897,10 +862,9 @@ footer{
          display:block;
          height: auto;
          margin:0;
-         width:100%;
-    
-         
+         width:100%;    
      }
+
      .hookcontainer{
 
         position:static;
@@ -961,7 +925,7 @@ footer{
          width:100%;
          height:auto;
          margin:0;
-         display:none; 
+         /* display:none;  */
         
         
      }
