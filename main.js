@@ -198,3 +198,49 @@ if(window.innerWidth <= Screensizes[2]){
 }else{
 
 } 
+
+
+
+
+//slides for the After Jumbotron Images 
+var images=document.querySelectorAll(".hookimage");
+let currentImage=0;
+let imageslides;
+
+function changeImage(){
+    for(i=0; i<imageslides.length; i++){
+        imageslides[i].style.opacity=0;
+        
+
+        imageslides[i].style.display="none";
+    
+        imageslides[i].style.visibility="hidden"
+    }
+
+    
+
+    imageslides[currentImage].style.opacity=1;
+
+    imageslides[currentImage].style.display="block";
+
+    imageslides[currentImage].style.visibility="visible"
+
+    
+    imageslides[currentImage].style.position="relative"
+
+    imageslides[currentImage].style.left="0";
+    imageslides[currentImage].style.top="0";
+    
+
+    // slides[currentSlide].style.backgroundColor="purple";
+
+
+    currentImage=(currentImage+1) % slides.length
+
+}
+
+if(window.innerWidth <= Screensizes[2]){
+    imageslides=setInterval(ChangeSlides,3000);
+}else{
+
+} 
