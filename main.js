@@ -179,6 +179,13 @@ function ChangeSlides(){
 
     slides[currentSlide].style.visibility="visible"
 
+    
+    slides[currentSlide].style.position="relative"
+
+    slides[currentSlide].style.left="0";
+    slides[currentSlide].style.top="0";
+    
+
     // slides[currentSlide].style.backgroundColor="purple";
 
 
