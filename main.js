@@ -25,37 +25,31 @@ var primarycollapse= document.getElementById("primarycollapse");
 var dropsecondary= document.getElementById("dropsecondary");
 var secondarycollapse= document.getElementById("secondarycollapse");
 
-//slides for the blog posts 
-var slides=document.querySelectorAll(".blog");
-let currentSlide=0;
-let blogslides;
 
-function ChangeSlides(){
-    for(i=0; i<slides.length; i++){
-        slides[i].style.opacity=0;
+
+//Navigation Scrolling appear and collapse nav bar 
+    if(window.innerWidth <= Screensizes[2]){
+
+        // keep track of previous scroll position
+        let prevScrollPos = window.pageYOffset;
+
+        window.addEventListener('scroll', function() {
+        // current scroll position
+        const currentScrollPos = window.pageYOffset;
+
+        if (prevScrollPos > currentScrollPos) {
+            // user has scrolled up
+            document.querySelector('nav').classList.add('hidenav');
+        } else {
+            // user has scrolled down
+            document.querySelector('nav').classList.remove('hidenav');
+        }
+
+        // update previous scroll position
+        prevScrollPos = currentScrollPos;
+        });
+
     }
-
-    
-
-    slides[currentSlide].style.opacity=1;
-
-    slides[currentSlide].style.display="block";
-
-    slides[currentSlide].style.visibility="visible"
-
-    // slides[currentSlide].style.backgroundColor="purple";
-
-
-    currentSlide=(currentSlide+1) % slides.length
-
-}
-
-if(window.innerWidth <= Screensizes[2]){
-    blogslides=setInterval(ChangeSlides,3000);
-}else{
-
-} 
-
 
 //header hamburger and collapse menu
 showmenu.addEventListener("click", ()=>{
@@ -160,3 +154,35 @@ dropsecondary.addEventListener("mouseleave", ()=>{
    
     secondarycollapse.removeAttribute("style")
 });
+
+
+//slides for the blog posts 
+var slides=document.querySelectorAll(".blog");
+let currentSlide=0;
+let blogslides;
+
+function ChangeSlides(){
+    for(i=0; i<slides.length; i++){
+        slides[i].style.opacity=0;
+    }
+
+    
+
+    slides[currentSlide].style.opacity=1;
+
+    slides[currentSlide].style.display="block";
+
+    slides[currentSlide].style.visibility="visible"
+
+    // slides[currentSlide].style.backgroundColor="purple";
+
+
+    currentSlide=(currentSlide+1) % slides.length
+
+}
+
+if(window.innerWidth <= Screensizes[2]){
+    blogslides=setInterval(ChangeSlides,3000);
+}else{
+
+} 
