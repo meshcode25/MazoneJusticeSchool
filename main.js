@@ -22,6 +22,23 @@ var primarycollapse= document.getElementById("primarycollapse");
 var dropsecondary= document.getElementById("dropsecondary");
 var secondarycollapse= document.getElementById("secondarycollapse");
 
+//slides for the blog posts 
+var slides=document.querySelectorAll(".blogs blog");
+var currentSlide=0;
+
+function ChangeSlides(n){
+    for(i=0; i<slides.length; i++){
+        slides[i].style.opacity=0;
+    }
+
+    currentSlide=n;
+
+    slides[currentSlide].style.opacity=1;
+
+    currentSlide=(n+1) % slides.length;
+}
+
+setInterval(ChangeSlides(currentSlide), 3000)
 
 //header hamburger and collapse menu
 showmenu.addEventListener("click", ()=>{
