@@ -617,16 +617,16 @@ footer{
 
 @media only screen and (max-width:480px){    
     nav{
-        position:sticky;
+        position:fixed;
         width:100%;
          margin:0;
          height:72px;
      }
-     /* .hidenav{
+     .hidenav{
         visibility: hidden;
         opacity: 0;
         display:none;
-     } */
+     }
 
      
      .headercontainer{
