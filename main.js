@@ -164,6 +164,11 @@ let blogslides;
 function ChangeSlides(){
     for(i=0; i<slides.length; i++){
         slides[i].style.opacity=0;
+        
+
+        slides[i].style.display="none";
+    
+        slides[i].style.visibility="hidden"
     }
 
     
