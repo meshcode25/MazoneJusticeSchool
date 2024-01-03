@@ -1127,8 +1127,9 @@ footer{
         display:none;
         visibility: hidden;
         position:relative;
-        left:20px;
-        top:30px;
+        left:70px;
+        top:80px;
+        transition:"all 2s ease"
     }
 
     .servicesheader{ 
