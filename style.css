@@ -893,8 +893,7 @@ footer{
 
      /*JUmbot tron Hook */
      .jumbotron{
-         position:relative;
-         top:72px;
+         position:static;
          display:block;
          height: auto;
          margin:0;
