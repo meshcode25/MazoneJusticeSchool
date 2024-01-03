@@ -860,7 +860,7 @@ footer{
      .jumbotron{
          position:static;
          display:block;
-         height: auto;
+         max-height:max-content;
          margin:0;
          width:100%;    
      }
