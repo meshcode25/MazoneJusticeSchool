@@ -23,7 +23,7 @@ var dropsecondary= document.getElementById("dropsecondary");
 var secondarycollapse= document.getElementById("secondarycollapse");
 
 //slides for the blog posts 
-var slides=document.querySelectorAll(".blogs blog");
+var slides=document.querySelectorAll(".blog");
 var currentSlide=0;
 
 function ChangeSlides(n){
@@ -34,6 +34,8 @@ function ChangeSlides(n){
     currentSlide=n;
 
     slides[currentSlide].style.opacity=1;
+
+    slides[currentSlide].style.backgroundColor="purple";
 
     currentSlide=(n+1) % slides.length;
 }
