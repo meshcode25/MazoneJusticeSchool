@@ -39,12 +39,12 @@ var secondarycollapse= document.getElementById("secondarycollapse");
 
             if (prevScrollPos < currentScrollPos) {
                 // user has scrolled up
-                document.querySelector('nav').classList.add('hidenav');
+                document.querySelector('.headercontainer').classList.add('hidenav');
       
 
             } else {
                 // user has scrolled down
-                document.querySelector('nav').classList.remove('hidenav');
+                document.querySelector('.headercontainer').classList.remove('hidenav');
         
 
             }
