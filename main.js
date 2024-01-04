@@ -1,6 +1,6 @@
 //toggle and untoggle service display on hover
 
-var Screensizes=[0,480,768,996,1200]
+var Screensizes=[0,480,768,992,1200]
 
 
 var showmenu= document.getElementById("showmenu");

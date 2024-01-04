@@ -204,6 +204,10 @@ nav a{
     width:40%;  
     margin-left:5rem;
 }
+.hookimagecontainer{
+    width:50%;
+    height:500px;
+}
 .headerhook{
     font-size:45px;
     font-weight: 500;
