@@ -1249,14 +1249,22 @@ footer{
  }
 
 
-@media only screen and (min-width:481px) and (max-width:768px){    
+@media only screen and (min-width:481px) and (max-width:768px){   
+
     nav{
-        position:sticky;
+        position:static;
         width:100%;
+        display:block;
          margin:0;
          height:72px;
      }
-  
+     .hidenav{
+        visibility: hidden;
+        opacity: 0;
+        display:none;
+     }
+
+     
      .headercontainer{
         width:100%;
         height:auto;
@@ -1264,7 +1272,7 @@ footer{
         display:flex;
         align-items:center;
         justify-content: space-between;
-        /*padding:0 30px;*/
+        position:fixed;
          
      }
  
@@ -1272,7 +1280,6 @@ footer{
         display:none;
         opacity:0;
         visibility:hidden;
-        
         
      }
  
@@ -1333,6 +1340,7 @@ footer{
         position:static;
         margin-left:0;
         width:100%;
+        display:block;
         background:#242627;
         opacity:0;
         visibility: hidden;
@@ -1341,6 +1349,24 @@ footer{
         transition:all 0.5s ease;
 
     }
+
+    .column{
+        display:none;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        left:0;
+        top:0;
+    }
+
+    
+    .column ul{
+        position: static;
+        display:none;
+        visibility: hidden;
+        opacity: 0;
+    } 
+
     .headercontainer .nav-links li:hover .column{
         display:inline-block;
         position:static;
@@ -1351,84 +1377,81 @@ footer{
         transition:all 1s ease;
         
     } 
-     .servicecontent .row .column h6 a:hover ul{
-        opacity: 1;
-        visibility: visible;
-        display:block;
-        position:static;
-        width:100%;
-    }    
 
-    .column{
-        display:none;
-        visibility: hidden;
-        opacity: 0;
-        position: absolute;
-        top:0;
-        left:0;
 
-    }
-   
-    .column ul{
-        position: static;
-        display:none;
-        visibility: hidden;
-        opacity: 0;
-    } 
-
-    .dropcolumn #drop-down-playgroup:hover #playgroupcollapse {
-        opacity: 1;
-        visibility: visible;
-        display:block;
-        position:static;
-        width:100%;
-    }
-   
-
-    .about-drop{
-        display:none;
-        visibility: hidden;
-        opacity:0;
-        height:0;
-        transition: all 1s ease;
- 
-     }
-     .about-drop li a{
-         font-size:16.5px;
-         display: block;
-         width:100%;
-     }
- 
-     .headercontainer li:hover .about-drop{    
-         position:static;
-         margin-left:0;
-         width:100%;
-         background:#242627;
-         opacity:1;
-         visibility: visible;
-         display: block;
-         height: auto;
-         border-radius:10px;
-         transition:all 0.5s ease;
-
-         
-     }
+    .dropkinda .kindacollapse{}
+    .dropprimary .primarycollapse{}
+    .dropsecondary .secondarycollapse{}
     
-     .resources-drop li a{
-         font-size:16.5px;
-         display: block;
-         width:100%;
-     }
-     
+    .droplink, .resources, .contact, .about-link1{
+        font-size:large;
+        font-weight:900;
+
+
+    }
+
+    .column h6{
+        font-size:20px;
+        /* padding-left: 12px; */
+        color:#fff;
+        font-weight:600;
+    
+    }
+    .column li a{
+        font-size:16px;
+        display:block;
+        font-weight:500;
+        margin:0;
+        padding:12px 0;
+        line-height:15px;
+    }
+    
+    
+    .about-drop{
+       display:none;
+       visibility: hidden;
+       opacity:0;
+
+    }
+    .about-drop li a{
+        font-size:16.5px;
+        padding:5px 0;
+        display: block;
+        width:100%;
+    
+    }
+
+    .headercontainer li:hover .about-drop{    
+        position:static;
+        margin-left:0;
+        width:100%;
+        background:#242627;
+        opacity:1;
+        visibility: visible;
+        display: block;
+        border-radius:5px;
+        transition:all 0.5s ease;
+        font-size:20px;
+        padding-left:2.17rem; 
+        margin:0;
+        
+        
+    }
 
     .resources-drop{
         display:none;
         visibility: hidden;
         opacity:0;
-        height:0;
-        transition: all 1s ease;
  
      }
+     .resources-drop li a{
+         font-size:16.5px;
+         padding:5px 0;
+         display: block;
+         width:100%;
+     
+     }
+ 
      .headercontainer li:hover .resources-drop{    
          position:static;
          margin-left:0;
@@ -1437,13 +1460,13 @@ footer{
          opacity:1;
          visibility: visible;
          display: block;
-         height: auto;
-         border-radius:10px;
+         border-radius:5px;
          transition:all 0.5s ease;
-
-         
+         font-size:20px;
+         padding-left:2.17rem; 
+         margin:0;         
      }
-    
+ 
 
      /*JUmbot tron Hook */
      .jumbotron{
@@ -1451,10 +1474,9 @@ footer{
          display:block;
          max-height:max-content;
          margin:0;
-         width:100%;
-    
-         
+         width:100%;    
      }
+
      .hookcontainer{
 
         position:static;
@@ -1463,7 +1485,7 @@ footer{
         padding:30px 0 0 10px;
         width:100%;  
         margin:0;
-        /* background-image: url("./Images/mazoneimg9.jpg"); */
+        background-image: url("./Images/mazoneimg9.jpg"); 
         background-color:wheat;
         background-position: center;
         background-repeat: no-repeat;
@@ -1472,8 +1494,7 @@ footer{
         
 
     }
-     .hookimgcontainer{ 
-        width:100%;
+     .hookimagecontainer{ 
         position:static;
         width:100%;
         display:block;
@@ -1484,7 +1505,7 @@ footer{
      .headerhook{
          font-size:42px;
          height:auto;
-         color: #242526;
+         color:rgb(49, 46, 46);
          font-weight: 500;
          background:rgba(232, 61, 18, 0.3);
          width:95%;
@@ -1492,9 +1513,9 @@ footer{
      }
      .parahook1{
          font-size:20px;
-         color: black;
+         color: white;
          font-weight: 200px;
-         background:rgba(232, 61, 18, 0.3);
+         background:rgba(28, 26, 26, 0.5);
          width:95%;
      }
      
@@ -1505,18 +1526,19 @@ footer{
          background-color: green;
          color:#fff;
          font-weight:500;
-         border: 1px solid white;
+         border: 2px solid white;
      }
      
      .hookimage{
+        
          position: center;
          size: cover;
          border-radius: 5px;
          width:100%;
          height:auto;
          margin:0;
-         display:none;
-
+         /* display:none;  */
+        
         
      }
      .reviewcontainer{ 
@@ -1531,15 +1553,17 @@ footer{
         display: block;
         position:static;
         margin:0 auto;
-        padding:10px 0;   
+        padding:2px 0;   
     }
     .google, .facebook, .clutch{
         margin:0;
         padding:0;
         color:white;
+        font-size:large;
+        
     }
     .googlediv, .facebookdiv, .clutchdiv{
-        padding-top:20px;
+        padding:20px 0;
     }
     .review div p{
         padding:0;
@@ -1555,6 +1579,7 @@ footer{
         height:auto;
         display: block;
         height:auto;
+        margin: 4rem auto 0rem auto;
     
     }
     .caseheader{
@@ -1566,6 +1591,7 @@ footer{
         position:static;
         display: block;
         height:auto;
+        margin: 0.5rem 0 3rem 0;
      
     }
     .casestudy{
@@ -1573,13 +1599,31 @@ footer{
         width:100%;
     }
     .case1, .case2{
-        width:100%;
+        margin:2rem auto 4rem auto;
+        width:90%;
         height:auto;
     }
+    .caseimg1div{
+        width:70%;
+        margin:0 auto;
+        
+    }
+    
+    .caseimg2div{
+        width:100%;
+        margin:0 auto;
+
+    }
+     .caseimage1, .caseimage2{
+        width:100%;
+        margin:0 auto;
+    } 
+
     .testheader{
         position:static;
         display: block;
         height:auto;
+        margin:2rem auto 0 auto;
 
     }
     .testimonialscontainer{
@@ -1587,15 +1631,45 @@ footer{
         width:95%;
         text-align: center;
         height:auto;
+        margin:0 auto 4rem auto;
 
     }
     .testimonials{
         margin:0 auto;
         display:block;
         width:80%;
+        margin:0.5rem auto 3rem auto;
     }
     .test1, .test2, .test3{
         width:80%;
+        margin: 1rem auto 5rem auto;
+    }
+
+    .testimagediv1{
+        width:200px;
+        height:200px;
+        background: url("Images/mazoneimg6.png") no-repeat center/cover;
+        border-radius:100%;
+        margin:0 auto;
+    }
+    .testname{
+        padding-top:20px;
+        margin-left:20px; 
+        font-weight:700;
+    }
+    .testimagediv2{
+        width:200px;
+        height:200px;
+        margin:0 auto;
+        background: url("Images/mazoneimg4.png") no-repeat center/cover;
+        border-radius:100%;
+    }
+    .testimagediv3{
+        width:200px;
+        margin:0 auto;
+        height:200px;
+        background: url("Images/mazoneimg1.png") no-repeat center/cover;
+        border-radius:100%;
     }
  
     .chooseheader{
@@ -1609,20 +1683,21 @@ footer{
     .chooseuscontainer{
         position:static;
         height:auto;
+        margin-bottom:5rem;
     }
     .chooseus{
 
     }
 
     .chooseus2{
-    display: block;
-    height:auto;
+        display: block;
+        height:auto;
     }
 
     .chooseus2 div{
-    display:block;
-    width:80%;
-    margin:0 auto;
+        display:block;
+        width:80%;
+        margin:0 auto;
     }
     .chooselogic{
         display:block;
@@ -1636,27 +1711,54 @@ footer{
     .awardsheader{
         position:static;
         height:auto;
+        margin-bottom:2rem;
     }
     .awardscontainer{
         position:static;
         height:auto;
+        margin-bottom:2rem;
+        width:100%;
+        height:auto;
     }
+    .awards{
+        width:100%;
+        height:auto;
+    }
+    .map{
+        width:100%;
+        height:400px;
+        
+    }
+
     .blogscontainer{
         position:static;
         height:auto;
+        margin:3rem auto;
     }
- 
+    .blogsheader{
+        margin:1rem auto;
+    }
+
     .blogs{
-        display:block;
-        justify-content: space-between;
         width:100%;
         margin:0 auto;
+        display:block;
+      
     }
     .blog{
         padding:10px;
         background-color:white;
-        width:80%;
-        height:250px;
+        width:92%;
+        height:auto;
+        margin:1rem auto;
+        text-align: left;
+        opacity:0;
+        display:none;
+        visibility: hidden;
+        position:relative;
+        left:70px;
+        top:80px;
+        transition:"all 2s ease"
     }
 
     .servicesheader{ 
@@ -1670,6 +1772,7 @@ footer{
         display:block;
         position:static;
         height:auto;
+        margin:1rem 0 3rem 0;
     }
     .services{
         display:block;
@@ -1677,6 +1780,7 @@ footer{
     .service{
         display:block;
         width:100%;
+        text-align:left;
         
     }
     .service h1{
@@ -1687,49 +1791,72 @@ footer{
         display:block;
         width:100%;
         height:auto;
+        margin-top:3rem;
+        padding:0;
     }
     .quote{
+        margin:0;
+        padding:2rem 0;
         width:100%
+    }
+    .quote h1{
+        margin:0;
+        padding:0;
     }
     .leadbar{
         width:100%;
 
     }
     .quotemail{
-        width:100%;
+        width:80%;
     }
     .buttons{
         display: block;
-        width:100%;
+        width:80%;
+        padding:1rem;
+        margin: 0 auto;
     }
     .contactus{
         width:80%;
-        margin: 5px 0;
+        padding:10px;
         margin:0 auto;
         display:block;
     } 
     
     .quoteus{
-        margin:5px 0;
-        width:70%;
-        margin:0 auto;
+        padding:10px 0 10px 5px ;
+        width:80%;
+        margin:1rem auto 0 auto;
         display:block;
     }
     footer{
         height:auto;
         display: block;
         position:static;
+        margin:0;
+        padding:3rem auto;
     }
     .footercontainer{
         height:auto;
         display: block;
         position:static;
+        text-align: left;
+        padding:2rem;
+        margin:0;
    
     }
+    .footercontainer div ul{
+        padding:0rem 1rem 0.5rem 1rem;
+   
+    }
+    .footercontainer div ul li a{
+        /*text-decoration: none;*/
+    }
     .final{
-        margin:0;
-        display:block;
-        padding:1rem 0.5rem;
+        width:100%;
+        margin:0 auto;
+        display:flex;
+        justify-content: space-between;
     }
  }
 
