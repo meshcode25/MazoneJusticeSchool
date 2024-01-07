@@ -30,7 +30,7 @@ var secondarycollapse= document.getElementById("secondarycollapse");
 
 
 //Navigation Scrolling appear and collapse nav bar 
-    if(window.innerWidth <= Screensizes[4]){
+    if(window.innerWidth <= Screensizes[3]){
 
         // keep track of previous scroll position
         let prevScrollPos = window.pageYOffset;
@@ -80,10 +80,10 @@ showmenu.addEventListener("click", ()=>{
 
 
     //Navigation Scrolling appear and collapse nav bar 
-    if(window.innerWidth >= Screensizes[3]){
+    if(window.innerWidth <= Screensizes[2]){
 
         
-        navlinks.style.width="80%";
+        navlinks.style.width="75%";
      
     }
     
