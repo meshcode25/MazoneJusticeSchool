@@ -1,6 +1,6 @@
 //toggle and untoggle service display on hover
 
-var Screensizes=[0,480,768,992,1200]
+var Screensizes=["0","480px","768px","992px","1200"]
 
 
 var showmenu= document.getElementById("showmenu");
@@ -28,7 +28,7 @@ var secondarycollapse= document.getElementById("secondarycollapse");
 
 
 //Navigation Scrolling appear and collapse nav bar 
-    if(window.innerWidth <= Screensizes[2]){
+    if(window.innerWidth <= Screensizes[4]){
 
         // keep track of previous scroll position
         let prevScrollPos = window.pageYOffset;
@@ -72,7 +72,7 @@ showmenu.addEventListener("click", ()=>{
 
 
     navlinks.setAttribute(
-        "style","position:absolute; top:90px; left:0; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%; overflow-y:scroll"
+        "style","position:absolute; top:90px; left:0; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%; overflow-y:auto; scrollbar-width:5rem"
     )
 });
 
