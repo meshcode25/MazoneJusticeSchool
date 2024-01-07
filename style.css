@@ -176,17 +176,26 @@ nav a{
     opacity:0;
     transition:all 3s ease;
 }
-.hamburger{
+
+.hamburgermenucontainer a:hover{
+    cursor:pointer;
+}
+.hamburgermenu{
+
 
 }
 
 .collapsecontainer{
-
+    color:white;
     display:none;
     visibility: hidden;
     opacity:0;
     transition:all 3s ease;
 }
+.collapsecontainer a:hover{
+    cursor: pointer;
+}
+
 .collapse{
 
 }
@@ -706,15 +715,16 @@ footer{
      
 
      }
-     .hamburger{
+    .hamburgermenu{
+     
     
-
-     }
+    }
      .hamburgermenucontainer a{
         color:white;
      }
 
      .collapsecontainer{
+        color:white;
         padding-top:1rem;
         display:none;
         visibility: hidden;
@@ -722,10 +732,10 @@ footer{
         transition:all 3s ease;
     }
     .collapse{
-
+        
     }
     .collapsecontainer a{
-        color:white;
+ 
     }
 
     .servicecontent{
@@ -1318,15 +1328,16 @@ footer{
      
 
      }
-     .hamburger{
-    
-
-     }
+     .hamburgermenu{
+  
+        
+    }
      .hamburgermenucontainer a{
         color:white;
      }
 
      .collapsecontainer{
+        color:white;
         padding-top:1rem;
         display:none;
         visibility: hidden;
@@ -1334,10 +1345,10 @@ footer{
         transition:all 3s ease;
     }
     .collapse{
-
+        
     }
     .collapsecontainer a{
-        color:white;
+        
     }
 
     .servicecontent{
@@ -1988,15 +1999,16 @@ footer{
      
 
      }
-     .hamburger{
+     .hamburgermenu{
     
-
-     }
+        
+    }
      .hamburgermenucontainer a{
         color:white;
      }
 
      .collapsecontainer{
+        color:white;
         padding-top:1rem;
         display:none;
         visibility: hidden;
@@ -2004,10 +2016,10 @@ footer{
         transition:all 3s ease;
     }
     .collapse{
-
+      
     }
     .collapsecontainer a{
-        color:white;
+    
     }
 
     .servicecontent{
@@ -2682,11 +2694,17 @@ footer{
        opacity: 0;
        padding-top:1rem;
     } 
+
+    .hamburgermenu{
+  
+        
+    }
     .hamburgermenucontainer a{
         color:white;
     }
     
     .collapsecontainer{
+        color:white;
         padding-top:1rem;
         display:none;
         visibility: hidden;
@@ -2695,7 +2713,11 @@ footer{
 
     }
     .collapsecontainer a{
-        color:white;
+    
+    }
+
+    .collapse{
+       
     }
 
 
@@ -3210,11 +3232,16 @@ footer{
         opacity: 0;
         padding-top:1rem;
      } 
+     .hamburgermenu{
+    
+        
+    }
      .hamburgermenucontainer a{
          color:white;
      }
      
      .collapsecontainer{
+        color:white;
         padding-top:1rem;
         display:none;
         visibility: hidden;
@@ -3223,9 +3250,11 @@ footer{
 
     }
     .collapsecontainer a{
-        color:white;
+       
     }
-
+    .collapse{
+       
+    }
 
 
     /* Jumbotron Things go below here */

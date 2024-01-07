@@ -57,6 +57,9 @@ var secondarycollapse= document.getElementById("secondarycollapse");
 
     }
 
+
+
+
 //header hamburger and collapse menu
 showmenu.addEventListener("click", ()=>{
     showmenu.style.display="none";
@@ -68,6 +71,7 @@ showmenu.addEventListener("click", ()=>{
     collapsemenu.style.display="block"
     collapsemenu.style.visibility="visible"
     collapsemenu.style.opacity="1"
+    // collapsemenu.style.color="white"
     collapsemenu.style.transition="all 2s ease"
     collapsemenu.style.animation="all 2s ease"
 
