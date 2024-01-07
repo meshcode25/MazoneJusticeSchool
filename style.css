@@ -1245,7 +1245,7 @@ footer{
         /*text-decoration: none;*/
     }
     .final{
-        width:100%;
+        width:98%;
         margin:0 auto;
         display:flex;
         justify-content: space-between;
@@ -1725,12 +1725,12 @@ footer{
         height:auto;
     }
     .awards{
-        width:100%;
-        height:auto;
+        width:90%;
+        height:300px;
     }
     .map{
         width:100%;
-        height:400px;
+        height:300px;
         
     }
 
@@ -1857,7 +1857,7 @@ footer{
         /*text-decoration: none;*/
     }
     .final{
-        width:100%;
+        width:95%;
         margin:0 auto;
         display:flex;
         justify-content: space-between;
@@ -2227,6 +2227,7 @@ footer{
         position: static;
         display: block;
         width:100%;
+        margin-top:5rem;
     }
     .caseheader{
         margin:0 auto;
@@ -2435,12 +2436,12 @@ footer{
     }
     .awards{
         /* background:url("Images/logos/mazonelogo2.png") no-repeat center/auto; */
-        height:500px;
-        width:100%;
+        height:350px;
+        width:90%;
         margin:2rem auto;
     }
     .map{
-        height:500px;
+        height:350px;
         width:90%;
         margin:0 auto;
     }
@@ -2625,7 +2626,7 @@ footer{
         /*text-decoration: none;*/
     }
     .final{
-        width:90%;
+        width:80%;
         margin:0 auto;
         display:flex;
         justify-content: space-between;
@@ -2785,6 +2786,7 @@ footer{
         position: static;
         display: block;
         width:100%;
+        margin-top:3rem;
     }
     .caseheader{
         margin:0 auto;
@@ -2802,10 +2804,11 @@ footer{
         display: block;
         position:static;
         margin:0 auto;
+        display: flex;
+        justify-content: space-between;
     }
     .case1,.case2 {
-        width:90%;
-        display: block;
+        width:40%;
         position:static;
         margin:3rem auto;
         height:auto;
@@ -2813,7 +2816,7 @@ footer{
     }
     .caseimg1div{
             height:40%;
-            width:80%;
+            width:100%;
             margin:0 auto;
     }
     .caseimg2div{
@@ -2992,13 +2995,15 @@ footer{
         width:100%;
     }
     .awards{
+     
         /* background:url("Images/logos/mazonelogo2.png") no-repeat center/auto; */
-        height:500px;
-        width:100%;
+        
+        height:400px;
+        width:70%;
         margin:2rem auto;
     }
     .map{
-        height:500px;
+        height:400px;
         width:90%;
         margin:0 auto;
     }
@@ -3309,6 +3314,7 @@ footer{
         position: static;
         display: block;
         width:100%;
+        margin-top:3rem;
     }
     .caseheader{
         margin:0 auto;
@@ -3323,12 +3329,13 @@ footer{
     }
     .casestudy{
         width:90%;
-        display: block;
+        display: flex;
+        justify-content: space-between;
         position:static;
         margin:0 auto;
     }
     .case1,.case2 {
-        width:90%;
+        width:35%;
         display: block;
         position:static;
         margin:3rem auto;
@@ -3337,7 +3344,7 @@ footer{
     }
     .caseimg1div{
             height:40%;
-            width:80%;
+            width:100%;
             margin:0 auto;
     }
     .caseimg2div{
@@ -3517,13 +3524,13 @@ footer{
     }
     .awards{
         /* background:url("Images/logos/mazonelogo2.png") no-repeat center/auto; */
-        height:500px;
-        width:100%;
+        height:400px;
+        width:70%;
         margin:2rem auto;
     }
     .map{
-        height:500px;
-        width:90%;
+        height:400px;
+        width:100%;
         margin:0 auto;
     }
 
