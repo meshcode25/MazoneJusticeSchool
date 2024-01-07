@@ -453,7 +453,7 @@ nav a{
     width:100%;
 }
 .awards{
-    background:url("Images/logos/mazonelogo2.png") no-repeat center/auto;
+    /* background:url("Images/logos/mazonelogo2.png") no-repeat center/auto; */
     height:200px;
     width:60%;
     margin:0 auto;
