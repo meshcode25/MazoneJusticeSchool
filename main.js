@@ -1,6 +1,8 @@
 //toggle and untoggle service display on hover
 
-var Screensizes=["0","480px","768px","992px","1200"]
+//var Screensizes=["0","480px","768px","992px","1200"]
+
+var Screensizes=[0,480,768,992,1200]
 
 
 var showmenu= document.getElementById("showmenu");
@@ -72,9 +74,20 @@ showmenu.addEventListener("click", ()=>{
 
 
     navlinks.setAttribute(
-        "style","position:absolute; top:90px; left:0; display:block; opacity:1; visibility:visible; background-color: #242526; width:75%; overflow-y:auto; scrollbar-width:5rem"
+        "style","position:absolute; top:90px; left:0; display:block; opacity:1; visibility:visible; background-color: #242526; width:65%; scrollbar-width:5rem"
     )
-});
+
+
+
+    //Navigation Scrolling appear and collapse nav bar 
+    if(window.innerWidth >= Screensizes[3]){
+
+        
+        navlinks.style.width="80%";
+     
+    }
+    
+    });
 
 collapsemenu.addEventListener("click", ()=>{
     collapsemenu.style.display="none";

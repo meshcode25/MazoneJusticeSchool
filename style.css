@@ -1927,6 +1927,7 @@ footer{
         display:block;
          margin:0;
          height:72px;
+         margin-bottom: 1rem;
      }
      .hidenav{
         visibility: hidden;
@@ -2152,12 +2153,14 @@ footer{
         justify-content: space-between;
     }
     .hookcontainer{
-        width:40%;  
-        margin-left:0.5rem;
+        width:60%;  
+        height:50%;
+        margin:0;
     }
     .hookimagecontainer{
-        width:60%;
-        height:auto;
+        width:40%;
+        height:50%;
+        max-height: max-content;
         margin:auto 0;
     }
     .headerhook{
@@ -2178,7 +2181,7 @@ footer{
     }
     .hookimagediv{
         width:100%;
-        height:auto;
+        height:100%;
         border: 2px solid black;   
     }
     
@@ -2193,7 +2196,7 @@ footer{
         position: static;
         display: block;
         width:100%;
-        padding:1rem 0;
+        padding:1.5rem 0;
         margin:1rem 0;
         background-color: blue;
         font-size:25px;
@@ -2237,13 +2240,13 @@ footer{
         width:100%;
     }
     .casestudy{
-        width:90%;
-        display: block;
+        width:100%;
+        display:block;
         position:static;
         margin:0 auto;
     }
     .case1,.case2 {
-        width:90%;
+        width:60%; 
         display: block;
         position:static;
         margin:3rem auto;
@@ -2252,7 +2255,7 @@ footer{
     }
     .caseimg1div{
             height:40%;
-            width:80%;
+            width:90%;
             margin:0 auto;
     }
     .caseimg2div{
@@ -2634,14 +2637,16 @@ footer{
 
 @media only screen and (max-width:1200px) and (min-width:992px){    
     nav{
-       height:65px;
-       line-height:65px;
+        position:static;
+        height:65px;
+        line-height:65px;
         z-index:1000;
-        width:100%;    
+        width:98%;    
+        margin:0 auto 1rem auto;
     }
  
     .headercontainer{
-        width:90%;
+        width:100%;
         background: #242526;
         margin:0 auto;
         display:flex;
@@ -2670,10 +2675,26 @@ footer{
     .phonenumber{
 
     }
-    .hamburgermenucontainer{
+     .hamburgermenucontainer{
        display:none;
        visibility:hidden;
        opacity: 0;
+       padding-top:1rem;
+    } 
+    .hamburgermenucontainer a{
+        color:white;
+    }
+    
+    .collapsecontainer{
+        padding-top:1rem;
+        display:none;
+        visibility: hidden;
+        opacity:0;
+        transition:all 3s ease;
+
+    }
+    .collapsecontainer a{
+        color:white;
     }
 
 
@@ -2691,12 +2712,12 @@ footer{
         justify-content: space-between;
     }
     .hookcontainer{
-        width:40%;  
+        width:50%;  
         margin-left:0.5rem;
     }
     .hookimagecontainer{
         width:50%;
-        height:auto;
+        height:50%;
         margin:auto 0;
     }
     .headerhook{
@@ -2716,9 +2737,9 @@ footer{
         color:#fff;
     }
     .hookimagediv{
-        width:90%;
+        width:70%;
         margin:0 auto;
-        height:auto;
+        height:70%;
         border: 2px solid black;   
     }
     
@@ -2744,10 +2765,10 @@ footer{
         justify-content: space-between;
         display:flex;
         width:100%;
-        padding:20px 0;   
+        padding:30px 0;   
     }
     .google, .facebook, .clutch{
-        font-size:large;
+        font-size:larger;
         color:white;
     }
     .review div p{
@@ -3172,9 +3193,523 @@ footer{
 
 @media only screen and (min-width:1200px){
 
-    .hamburgermenucontainer{
+    nav{
+
+        position:static;
+        margin-bottom:1rem;
+    }
+
+     .hamburgermenucontainer{
         display:none;
         visibility:hidden;
         opacity: 0;
+        padding-top:1rem;
+     } 
+     .hamburgermenucontainer a{
+         color:white;
      }
+     
+     .collapsecontainer{
+        padding-top:1rem;
+        display:none;
+        visibility: hidden;
+        opacity:0;
+        transition:all 3s ease;
+
+    }
+    .collapsecontainer a{
+        color:white;
+    }
+
+
+
+    /* Jumbotron Things go below here */
+
+    /* Jumbotron Container goes here */
+    .jumbotron{
+        position: static;
+        padding:1rem;
+        width:100%;
+        max-height:max-content;
+        display:flex;
+        justify-content: space-between;
+    }
+    .hookcontainer{
+        width:40%;  
+        margin-left:0.5rem;
+    }
+    .hookimagecontainer{
+        width:50%;
+        height:50%;
+        margin:auto 0;
+    }
+    .headerhook{
+        font-size:45px;
+        font-weight: 500;
+    }
+    .parahook1{
+        font-size:20px;
+        font-weight: 200px;
+    }
+    
+    .buttonhook{
+        padding:10px;
+        border-radius:6px;
+        margin:5px 0;
+        background-color: green;
+        color:#fff;
+    }
+    .hookimagediv{
+        width:67.50%;
+        height:67.5%;
+        margin:0 auto;
+        border: 2px solid black;   
+    }
+    
+    .hookimage{
+        width:100%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .reviewcontainer{
+        position: static;
+        display: block;
+        width:100%;
+        padding:1rem 0;
+        margin:1rem 0;
+        background-color: blue;
+        font-size:25px;
+        
+    }
+    .review{ 
+        position: static;
+        justify-content: space-between;
+        display:flex;
+        width:100%;
+        padding:20px 0;   
+    }
+    .google, .facebook, .clutch{
+        font-size:larger;
+        color:white;
+    }
+    .review div p{
+        padding:0;
+        font-size:medium;
+        margin:0 auto;
+        text-align: center;
+        color:gold;
+    }
+    .review div p i{
+        padding:5px;
+    }
+
+    .caseheadercontainer{
+        position: static;
+        display: block;
+        width:100%;
+    }
+    .caseheader{
+        margin:0 auto;
+        width: 95%;
+        font-size:40px;
+        text-align: center;
+    }
+    .casestudycontainer{
+        position: static;
+        display: block;
+        width:100%;
+    }
+    .casestudy{
+        width:90%;
+        display: block;
+        position:static;
+        margin:0 auto;
+    }
+    .case1,.case2 {
+        width:90%;
+        display: block;
+        position:static;
+        margin:3rem auto;
+        height:auto;
+        
+    }
+    .caseimg1div{
+            height:40%;
+            width:80%;
+            margin:0 auto;
+    }
+    .caseimg2div{
+        height:40%;
+        width:100%;
+        margin:0 auto;
+    }
+
+    .caseimage1, .caseimage2{
+        height:100%;
+        position:center;
+        size:cover;
+        width:100%;
+        margin:0 auto;
+    }
+    
+    .casepara{
+        background-color: yellowgreen;
+        padding:5px 30px 10px 30px ;
+    
+        font-size:20px;
+    
+    }
+    .growthnumbers{
+        display:flex;
+        width:100%;
+        margin:0 auto;
+        justify-content:space-between;
+    
+    }
+    .divider{
+        background-color:whitesmoke;
+        width:0.5px;
+        height:20px;
+    }
+    .organic{
+        font-size:25px;
+    }
+    .online{
+        font-size:25px;
+    }
+    .organic p, .online p{
+        padding:0;
+        margin:0;
+    }
+    .trafficpercentage{
+        color:green;
+        font-size:25px;
+        font-weight:500;
+    }
+    .caseshortstory{
+        padding-top:10px;
+    
+    }
+    .traffictype{
+        font-weight:500;
+        margin:0;
+        padding:0; 
+    }
+    .caselink{
+        list-style: none;
+        text-decoration:none;
+        font-size:15px;
+        font-weight:500;
+        color:green;
+    }
+    .testheader{
+        width:100%;
+        position:static;
+        display:block;
+        margin:2rem auto;
+        
+    }
+    .testimonialscontainer{
+        position: static;
+        width:100%;
+        margin:3rem auto;
+    }
+    .testimonials{
+        display:flex;
+        justify-content:space-between;
+        width: 80%;
+        margin:0 auto;
+    }
+    .test1, .test2, .test3{
+        width:30%;
+    }
+    .testimagediv1{
+        width:200px;
+        height:200px;
+        background: url("Images/mazoneimg6.png") no-repeat center/cover;
+        border-radius:100%;
+    }
+    .testname{
+        padding-top:20px;
+        margin-left:20px; 
+        font-weight:700;
+    }
+    .testimagediv2{
+        width:150px;
+        height:150px;
+        background: url("Images/mazoneimg4.png") no-repeat center/cover;
+        border-radius:100%;
+    }
+    .testimagediv3{
+        width:100px;
+        height:100px;
+        background: url("Images/mazoneimg1.png") no-repeat center/cover;
+        border-radius:100%;
+    }
+    .testhighlight{
+        padding: 3px;
+        margin-bottom:-3px;
+        font-weight: 900;
+        background-color:gold;
+    }
+    .testimony{
+        padding-top:10px;
+        font-size:17px;
+    }
+    .chooseheader{
+        display: block;
+        position: static;
+        text-align:center;
+        width:100%;
+        margin:1rem auto;
+
+       
+    }
+    .chooseuscontainer{
+        display: block;
+        position: static;
+       
+        width:100%;
+        margin:0.5rem 0 3rem 0.5rem;
+    }
+    .chooseus{
+        width:80%;
+        margin:0 auto; 
+    }
+    .chooseimage{
+        background: url("Images/mazoneimg3.png") no-repeat center/cover;
+        height:400px;
+        text-align:center;
+    }
+    .chooseus2{
+        display: flex;
+        justify-content:space-between;
+    }
+    .chooseus2 div{
+        width:48%;
+    
+    }
+    .chooselogic{
+        display:flex;
+        margin-top:30px;
+        justify-content: space-between;
+    }
+    .logic1, .logic2, .logic3, .logic4{
+        width:23%;
+    }
+    .awardsheader{
+        display: block;
+        position: static;
+        text-align:center;
+        width:100%;
+    }
+    .awardsheader p{
+        width:90%;
+        margin:0 auto;
+    }
+    .awardscontainer{
+        display: block;
+        position: static;
+        text-align:center;
+        width:100%;
+    }
+    .awards{
+        /* background:url("Images/logos/mazonelogo2.png") no-repeat center/auto; */
+        height:500px;
+        width:100%;
+        margin:2rem auto;
+    }
+    .map{
+        height:500px;
+        width:90%;
+        margin:0 auto;
+    }
+
+    .blogscontainer{
+        display: block;
+        position: static;  
+        width:100%;
+        padding:20px 20px;
+        background-color:whitesmoke;
+    }
+    
+    .blogsheader{
+        display: block;
+        position: static;  
+        width:100%;
+        text-align:center;
+    }
+    .blogs{
+        display:flex;
+        justify-content: space-between;
+        width:95%;
+        margin:0 auto;
+    }
+    .blog{
+        padding:10px;
+        background-color:white;
+        width:30%;
+        height:auto;
+    }
+    .blogheader{
+        color:green;
+        
+    }
+    .servicesheader{
+        display: block;
+        position: static;
+        width:100%;
+        margin:2rem auto;
+        text-align:center;
+    }
+    .servicescontainer{
+        width:98%;
+        display: block;
+        position: static;
+        text-align:center;
+        margin: 0.5rem auto 2rem auto;
+    
+    }
+    .services{
+        margin:1rem auto;
+        display: flex;
+        width:95%;
+        flex-wrap: wrap;
+    }
+    .service{
+        width: 31%;
+        height:auto;
+        border: 1px solid green;
+        border-radius:5px;
+        transition: all 0.5s ease;
+        padding:5px 10px;
+        
+    
+    }
+    .service h1{
+        font-size:20px;
+        text-transform: uppercase;
+        font-weight:600;
+    
+    }
+    .service p a{
+        display:block;
+        text-decoration:none;
+        color:green;
+        font-size:16px;
+        font-weight: 600;
+        text-transform:capitalize;
+    }
+    .service:hover  {
+        padding-left:10px;
+        background:lightgrey;   
+    }
+    .quotecontainer{
+        width:100%;
+        display: block;
+        position: static;
+        text-align:center;
+        color:white;
+        height:350px;
+     
+    }
+    .quotecontainer h1{
+
+        color:white;
+        padding-bottom:30px;
+        text-align: center;
+        margin:0.5rem auto 0 auto;
+    }
+    .quote{
+        
+        padding:30px;
+        width:100%;
+        background:purple;
+        text-align:center;
+        margin:1rem auto;;
+    }
+    .quotemail{
+        width:40%;
+        padding:7px 10px;
+        border-radius:5px;
+        outline:none;
+        margin:5px 5px;
+        border:none;
+    }
+    .mailbtn{
+        margin-left:-9px;
+        outline:none;
+       background-color:green;
+       color:white;
+       padding:7px;
+        border-radius:7px;
+        border:none;
+        text-transform: capitalize;
+    }
+    .leadbar{
+        padding:1rem;
+    }
+    .buttons{
+        display: block;
+        width:100%;
+    }
+    .contactus{
+        text-align:left;
+        background-color:orangered;
+        outline:none;
+        border:none;
+        width:30%;
+        
+        margin:0 auto;
+        border-radius:5px;
+        color:white;
+        padding:5px 10px;
+        margin-top:10px;
+        margin-right:30px;
+        font-size:20px;
+        
+    }
+    .quoteus{
+        text-align:left;
+        outline:none;
+        border:none;
+        width:30%;
+        font-size:20px;
+        border-radius:5px;
+        padding:5px 10px;
+        background-color:blue;
+        margin-top:10px;
+        color:white;
+    }
+    footer{
+        height:auto;
+        display: block;
+        position:static;
+        margin:0 auto;
+        padding:1rem auto;
+    }
+    .footercontainer{
+        width:90%;
+        height:auto;
+        display: flex;
+        position:static;
+        text-align: left;
+        margin:0 auto;
+        justify-content: space-between;
+    }
+    .footercontainer div ul{
+        padding:0rem 1rem 0.5rem 1rem;
+   
+    }
+    .footercontainer div ul li a{
+        /*text-decoration: none;*/
+    }
+    .final{
+        width:70%;
+        margin:0 auto;
+        display:flex;
+        justify-content: space-between;
+    }
 }
